@@ -78,7 +78,7 @@ return view.extend({
 				return;
 			}
 
-			return callSetPassword('root', formData.password.pw1).then(function(success) {
+			return callSetPassword('kokang', formData.password.pw1).then(function(success) {
 				if (success)
 					ui.addNotification(null, E('p', _('The system password has been successfully changed.')), 'info');
 				else
