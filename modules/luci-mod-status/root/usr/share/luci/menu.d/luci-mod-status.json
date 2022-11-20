@@ -19,7 +19,7 @@
 			"path": "status/iptables"
 		},
 		"depends": {
-			"acl": [ "luci-mod-status-firewall" ]
+			"acl": [ "luci-mod-status-firewall-hidden" ]
 		}
 	},
 
@@ -31,7 +31,7 @@
 			"path": "status/routes"
 		},
 		"depends": {
-			"acl": [ "luci-mod-status-routes" ]
+			"acl": [ "luci-mod-status-routes-hidden" ]
 		}
 	},
 
@@ -67,7 +67,7 @@
 			"path": "status/processes"
 		},
 		"depends": {
-			"acl": [ "luci-mod-status-processes" ]
+			"acl": [ "luci-mod-status-processes-hidden" ]
 		}
 	},
 
