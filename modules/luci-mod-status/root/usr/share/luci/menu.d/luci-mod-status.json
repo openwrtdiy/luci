@@ -92,7 +92,7 @@
 			"path": "admin/status/realtime/load"
 		},
 		"depends": {
-			"acl": [ "luci-mod-status-realtime" ]
+			"acl": [ "luci-mod-status-realtime-hidden" ]
 		}
 	},
 
