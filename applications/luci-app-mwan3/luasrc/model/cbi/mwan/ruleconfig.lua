@@ -69,13 +69,6 @@ for _, z in ipairs(ipsets) do
 	o:value(z)
 end
 
-o = s:option(Value, "ipset_src", translate("IPset Source"),
-        translate("Name of IPset source rule."))
-o:value("", translate("-- Please choose --"))
-for _, z in ipairs(ipsets) do
-        o:value(z)
-end
-
 o = s:option(Flag, "logging", translate("Logging"),
 	translate("Enables firewall rule logging (global mwan3 logging must also be enabled)"))
 
