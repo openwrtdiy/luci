@@ -421,9 +421,6 @@ msgstr "活动的 <abbr title=\"互联网协议第 6 版\">IPv6</abbr> 路由"
 msgid "Active Connections"
 msgstr "活动连接"
 
-msgid "Online Users"
-msgstr "在线用户数"
-
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:34
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:182
 msgid "Active DHCP Leases"

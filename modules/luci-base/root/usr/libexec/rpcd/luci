@@ -637,15 +637,7 @@ local methods = {
 			end
 			return { result = res }
 		end
-	},
-
-	getOnlineUsers = {
-		call = function()
-			local sys = require "luci.sys"
-			local onlineusers = sys.exec("cat /proc/net/dev | grep 'ppp' | wc -l")
-			return { onlineusers = onlineusers }
-
-		end
+	}
 }
 
 local function parseInput()
