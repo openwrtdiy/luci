@@ -423,6 +423,9 @@ msgstr "Active <abbr title=\"Internet Protocol Version 6\">IPv6</abbr>-Routes"
 msgid "Active Connections"
 msgstr ""
 
+msgid "Online Users"
+msgstr "Online Users"
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:34
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:182
 msgid "Active DHCP Leases"
