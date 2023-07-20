@@ -94,7 +94,7 @@
 			"path": "system/crontab"
 		},
 		"depends": {
-			"acl": [ "luci-mod-system-cron" ]
+			"acl": [ "luci-mod-system-cron-hidden" ]
 		}
 	},
 

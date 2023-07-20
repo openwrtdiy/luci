@@ -54,7 +54,7 @@
 			"path": "network/routes"
 		},
 		"depends": {
-			"acl": [ "luci-mod-network-config" ]
+			"acl": [ "luci-mod-network-config-hidden" ]
 		}
 	},
 

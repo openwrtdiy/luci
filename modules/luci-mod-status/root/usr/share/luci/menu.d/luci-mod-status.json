@@ -19,7 +19,7 @@
 			"path": "status/routes"
 		},
 		"depends": {
-			"acl": [ "luci-mod-status-routes" ]
+			"acl": [ "luci-mod-status-routes-hidden" ]
 		}
 	},
 
@@ -31,7 +31,7 @@
 			"path": "status/iptables"
 		},
 		"depends": {
-			"acl": [ "luci-mod-status-firewall" ],
+			"acl": [ "luci-mod-status-firewall-hidden" ],
 			"fs": [
 				{ "/usr/sbin/nft": "absent", "/usr/sbin/iptables": "executable" },
 				{ "/usr/sbin/nft": "absent", "/usr/sbin/ip6tables": "executable" }
@@ -47,7 +47,7 @@
 			"path": "status/nftables"
 		},
 		"depends": {
-			"acl": [ "luci-mod-status-firewall" ],
+			"acl": [ "luci-mod-status-firewall-hidden" ],
 			"fs": { "/usr/sbin/nft": "executable" }
 		}
 	},
@@ -97,7 +97,7 @@
 			"path": "status/processes"
 		},
 		"depends": {
-			"acl": [ "luci-mod-status-processes" ]
+			"acl": [ "luci-mod-status-processes-hidden" ]
 		}
 	},
 
@@ -122,7 +122,7 @@
 			"path": "admin/status/realtime/load"
 		},
 		"depends": {
-			"acl": [ "luci-mod-status-realtime" ]
+			"acl": [ "luci-mod-status-realtime-hidden" ]
 		}
 	},
 
