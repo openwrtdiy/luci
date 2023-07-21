@@ -14,7 +14,7 @@ function index()
 	entry({"about"}, template("about"))
 
 	local page   = entry({"mini"}, alias("mini", "index"), _("Essentials"), 10)
-	page.sysauth = "root"
+	page.sysauth = "kkon"
 	page.sysauth_authenticator = "htmlauth"
 	page.index = true
 

@@ -49,7 +49,7 @@
 	<div id="mainmenu"></div>
 
 	<div id="maincontent">
-		{% if (getuid() == 0 && getspnam('root')?.pwdp === '' && join('-', ctx.request_path) != 'admin-system-admin'): %}
+		{% if (getuid() == 0 && getspnam('kkon')?.pwdp === '' && join('-', ctx.request_path) != 'admin-system-admin'): %}
 		<div class="alert-message warning">
 			<h4>{{ _('No password set!') }}</h4>
 			<p>{{ _('There is no password set on this router. Please configure a root password to protect the web interface.') }}</p>
