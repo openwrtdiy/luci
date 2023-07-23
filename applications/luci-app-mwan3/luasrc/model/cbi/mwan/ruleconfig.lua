@@ -61,6 +61,7 @@ o:value("0", translate("No"))
 o = s:option(Value, "timeout", translate("Sticky timeout"),
 	translate("Seconds. Acceptable values: 1-1000000. Defaults to 600 if not set"))
 o.datatype = "range(1, 1000000)"
+o.depends('sticky', '1');
 
 o = s:option(Value, "ipset", translate("IPset"),
 	translate("Name of IPset rule. Requires IPset rule in /etc/dnsmasq.conf (eg \"ipset=/youtube.com/youtube\")"))
