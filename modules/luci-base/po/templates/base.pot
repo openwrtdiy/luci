@@ -7082,7 +7082,7 @@ msgstr ""
 #: themes/luci-theme-openwrt-2020/luasrc/view/themes/openwrt2020/header.htm:60
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm:80
 msgid ""
-"There is no password set on this router. Please configure a root password to "
+"There is no password set on this router. Please configure password "
 "protect the web interface."
 msgstr ""
 
