@@ -3,11 +3,6 @@
 'require fs';
 'require network';
 
-var callOnlineUsers = rpc.declare({
-        object: 'luci',
-        method: 'getOnlineUsers'
-});
-
 function progressbar(value, max, byte) {
 	var vn = parseInt(value) || 0,
 	    mn = parseInt(max) || 100,
@@ -72,8 +67,7 @@ return baseclass.extend({
 			fs.trimmed('/proc/sys/net/netfilter/nf_conntrack_count'),
 			fs.trimmed('/proc/sys/net/netfilter/nf_conntrack_max'),
 			network.getWANNetworks(),
-			network.getWAN6Networks(),
-			L.resolveDefault(callOnlineUsers(), {})
+			network.getWAN6Networks()
 		]);
 	},
 
@@ -81,12 +75,10 @@ return baseclass.extend({
 		var ct_count  = +data[0],
 		    ct_max    = +data[1],
 		    wan_nets  = data[2],
-		    wan6_nets = data[3],
-		    onlineusers = data[4];
+		    wan6_nets = data[3];
 
 		var fields = [
-			_('Active Connections'), ct_max ? ct_count : null,
-			_('Online Users'), onlineusers ? onlineusers.onlineusers : null
+			_('Active Connections'), ct_max ? ct_count : null
 		];
 
 		var ctstatus = E('table', { 'class': 'table' });
