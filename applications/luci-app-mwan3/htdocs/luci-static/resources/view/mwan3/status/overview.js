@@ -18,13 +18,16 @@ var memoryUsage = 50; // Replace with the actual memory usage value
 // Simulated CPU usage (replace with actual CPU usage data)
 var cpuUsage = 30; // Replace with the actual CPU usage value
 
+// Simulated active connections (replace with actual data retrieval)
+var activeConnections = 100; // Replace with the actual number of active connections
+
 document.querySelector('head').appendChild(E('link', {
     'rel': 'stylesheet',
     'type': 'text/css',
     'href': L.resource('view/mwan3/mwan3.css')
 }));
 
-function renderMwan3Status(status, cpuTemperature, memoryUsage, cpuUsage) {
+function renderMwan3Status(status, cpuTemperature, memoryUsage, cpuUsage, activeConnections) {
     if (!status.interfaces)
         return '<strong>%h</strong>'.format(_('No MWAN interfaces found'));
 
@@ -150,8 +153,27 @@ function renderMwan3Status(status, cpuTemperature, memoryUsage, cpuUsage) {
 
     // Append CPU usage, Memory usage, and CPU temperature status sections to the existing statusview
     statusview += cpuUsageSection + memorySection + cpuTemperatureSection;
+    
+    // Modify the Active Connections status section based on the number of active connections
+    var activeConnectionsStatus = '';
+    var activeConnectionsSection = '';
+    var activeConnectionsCss = '';
 
-    return statusview;
+    if (activeConnections >= 1000) {
+        activeConnectionsCss = 'danger'; // Red for high active connections
+    } else if (activeConnections >= 500) {
+        activeConnectionsCss = 'warning'; // Yellow for moderate active connections
+    } else {
+        activeConnectionsCss = 'success'; // Green for low active connections
+    }
+
+    activeConnectionsStatus = '<div><strong>%h:&#160;</strong>%h</div>'.format(_('Active Connections'), activeConnections);
+
+    activeConnectionsSection += '<div class="alert-message %h">'.format(activeConnectionsCss);
+    activeConnectionsSection += activeConnectionsStatus;
+    activeConnectionsSection += '</div>';
+
+    return statusview + activeConnectionsSection;
 }
 
 return view.extend({
