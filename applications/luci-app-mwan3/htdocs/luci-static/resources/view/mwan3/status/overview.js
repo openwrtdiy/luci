@@ -192,7 +192,7 @@ return view.extend({
         });
 
         return E('div', { class: 'cbi-map' }, [
-            E('h2', [ _('Interface Status') ]),
+            E('h2', [ _('Network interface status') ]),
             E('div', { class: 'cbi-section' }, [
                 E('div', { 'id': 'mwan3-service-status' }, [
                     E('em', { 'class': 'spinning' }, [ _('Collecting data ...') ])
