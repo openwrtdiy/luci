@@ -87,6 +87,14 @@ return view.extend({
 		for (var i = 0; i < ipsets.length; i++) {
 			if (ipsets[i].length > 0)
 				o.value(ipsets[i]);
+		}				
+		o = s.option(form.Value, 'ipset_src', _('IPset Source'),
+			_('Name of IPset source rule'));
+		o.value('', _('-- Please choose --'));
+		var ipsets = data[0].split(/\n/);
+		for (var i = 0; i < ipsets.length; i++) {
+			if (ipsets[i].length > 0)
+				o.value(ipsets[i]);
 		}
 		o.modalonly = true;
 
