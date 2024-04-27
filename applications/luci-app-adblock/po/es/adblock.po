@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-21 05:07+0000\n"
+"PO-Revision-Date: 2024-03-06 09:48+0000\n"
 "Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsadblock/es/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:272
 msgid "Action"
@@ -416,7 +416,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:299
 msgid "General Settings"
-msgstr "Configuración general"
+msgstr "Ajustes generales"
 
 #: applications/luci-app-adblock/root/usr/share/rpcd/acl.d/luci-app-adblock.json:3
 msgid "Grant access to LuCI app adblock"
@@ -495,10 +495,6 @@ msgstr ""
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:124
 msgid "No Query results!"
 msgstr "¡No hay resultados de consulta!"
-
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/logread.js:21
-msgid "No adblock related logs yet!"
-msgstr "¡Aún no hay registros relacionados con adblock!"
 
 #: applications/luci-app-adblock/root/usr/share/luci/menu.d/luci-app-adblock.json:19
 msgid "Overview"
@@ -672,11 +668,11 @@ msgstr "Establecer un nuevo trabajo de adblock"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:432
 msgid "Set the dns backend instance used by adblock."
-msgstr "Establecer la instancia de backend de dns utilizada por adblock."
+msgstr "Establecer la instancia de backend de DNS utilizada por adblock."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:297
 msgid "Settings"
-msgstr "Configuraciones"
+msgstr "Ajustes"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:549
 msgid "Sources (Size, Focus)"
@@ -743,11 +739,6 @@ msgstr "El reparto de horas (req., rango: 0-23)"
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:51
 msgid "The minutes portion (opt., range: 0-59)"
 msgstr "La porción de minutos (opcional, rango: 0-59)"
-
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/logread.js:28
-msgid "The syslog output, pre-filtered for adblock related messages only."
-msgstr ""
-"La salida de syslog, prefiltrada solo para mensajes relacionados con adblock."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:435
 msgid "Third instance"

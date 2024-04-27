@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2023-07-27 06:17+0000\n"
-"Last-Translator: Eric <hamburger2048@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2024-03-10 22:01+0000\n"
+"Last-Translator: MkQtS <MkQtS@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "openwrt/luciapplicationsolsr/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -13,19 +13,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/mid.js:152
 msgid "Active MID announcements"
-msgstr "活动的 MID 通告"
+msgstr "活跃的 MID 通告"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/topology.js:173
 msgid "Active OLSR nodes"
-msgstr "活动的 OLSR 节点"
+msgstr "活跃的 OLSR 节点"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/hna.js:252
 msgid "Active host net announcements"
-msgstr "活动的主机网络通告"
+msgstr "活跃的主机网络通告"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:128
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:126
@@ -124,7 +124,7 @@ msgstr "启用这个接口。"
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdplugins.js:278
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdplugins6.js:276
 msgid "Enabled"
-msgstr "启用"
+msgstr "已启用"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/neighbors.js:538
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/routes.js:292
@@ -263,7 +263,7 @@ msgstr "跃点"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/neighbors.js:271
 msgid "Hostname"
-msgstr "主机名"
+msgstr "主机名称"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdhna.js:14
 msgid ""
@@ -734,7 +734,7 @@ msgstr "橙色"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/hna.js:250
 msgid "Overview of currently active OLSR host net announcements"
-msgstr "当前活动的 OLSR 主机网络通告概览"
+msgstr "当前活跃的 OLSR 主机网络通告概览"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/neighbors.js:529
 msgid "Overview of currently established OLSR connections"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2023-08-20 12:46+0000\n"
+"PO-Revision-Date: 2024-02-13 22:55+0000\n"
 "Last-Translator: Džiugas J <dziugas1959@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsfrps/lt/>\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
 "19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:15
 msgid "Additional configs"
-msgstr ""
+msgstr "Papildomi konfigūravimai"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:43
 msgid "Additional settings"
@@ -46,11 +46,11 @@ msgstr ""
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:19
 msgid "Bind address"
-msgstr ""
+msgstr "Pririšti adresą"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:20
 msgid "Bind port"
-msgstr ""
+msgstr "Pririšti prievadą"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:19
 msgid ""
@@ -80,7 +80,7 @@ msgstr ""
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:143
 msgid "Collecting data ..."
-msgstr ""
+msgstr "Renkami duomenys..."
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:151
 msgid "Common settings"
@@ -88,11 +88,11 @@ msgstr "Dažni nustatymai"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:15
 msgid "Config files include in temporary config file"
-msgstr ""
+msgstr "Konfigūracijos failai įtraukti į laikinąjį konfigūracijos failą"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:39
 msgid "Custom 404 page"
-msgstr ""
+msgstr "Pasirinktinis „404“ puslapis"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:39
 msgid ""
@@ -144,7 +144,7 @@ msgstr ""
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:35
 msgid "Disable log color"
-msgstr ""
+msgstr "Išjungti žurnalo spalvą"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:35
 msgid ""
@@ -154,11 +154,11 @@ msgstr ""
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:14
 msgid "Environment variable"
-msgstr ""
+msgstr "Aplinkybių kintamumas"
 
 #: applications/luci-app-frps/root/usr/share/rpcd/acl.d/luci-app-frps.json:3
 msgid "Grant access to LuCI app frps"
-msgstr ""
+msgstr "Duoti prieigą prie „LuCI app frps“"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:42
 msgid ""
@@ -173,7 +173,7 @@ msgstr ""
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:22
 msgid "KCP bind port"
-msgstr ""
+msgstr "Pririšti „KCP“ prievadą"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:32
 msgid "Log file"
@@ -185,15 +185,15 @@ msgstr "Žurnalo lygis"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:34
 msgid "Log max days"
-msgstr ""
+msgstr "Maksimalus dienų žurnalinimas"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:10
 msgid "Log stderr"
-msgstr ""
+msgstr "Žurnalinti „stderr“"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:9
 msgid "Log stdout"
-msgstr ""
+msgstr "Žurnalinti „stdout“"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:32
 msgid ""
@@ -218,7 +218,7 @@ msgstr ""
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:41
 msgid "Max ports per client"
-msgstr ""
+msgstr "Maksimalus prievadų skaičius klientui"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:41
 msgid ""
@@ -229,7 +229,7 @@ msgstr ""
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:118
 msgid "NOT RUNNING"
-msgstr ""
+msgstr "NEVEIKIA"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:14
 msgid ""
@@ -239,7 +239,7 @@ msgstr ""
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:23
 msgid "Proxy bind address"
-msgstr ""
+msgstr "Pririšti įgaliotojo adresą"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:23
 msgid ""
@@ -249,7 +249,7 @@ msgstr ""
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:116
 msgid "RUNNING"
-msgstr ""
+msgstr "VEIKIA"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:13
 msgid "Respawn when crashed"
@@ -257,16 +257,16 @@ msgstr ""
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:12
 msgid "Run daemon as group"
-msgstr ""
+msgstr "Vykdyti „daemon“ kaip grupę"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:11
 msgid "Run daemon as user"
-msgstr ""
+msgstr "Vykdyti „daemon“ kaip vartotoją"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:152
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:156
 msgid "Startup settings"
-msgstr ""
+msgstr "Paleidimo nustatymai"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:37
 msgid ""
@@ -279,11 +279,11 @@ msgstr ""
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:37
 msgid "Subdomain host"
-msgstr ""
+msgstr "Subdomeno-srities skleidėjas/p.k – vedėjas"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:38
 msgid "TCP mux"
-msgstr ""
+msgstr "„TCP“ tankintuvas"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:38
 msgid ""
@@ -299,7 +299,7 @@ msgstr ""
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:36
 msgid "Token"
-msgstr ""
+msgstr "Žetonas"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:36
 msgid ""
@@ -310,11 +310,11 @@ msgstr ""
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:21
 msgid "UDP bind port"
-msgstr ""
+msgstr "„UDP“ pririštas prievadas"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:24
 msgid "Vhost HTTP port"
-msgstr ""
+msgstr "„Vhost HTTP“ prievadas"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:26
 msgid "Vhost HTTP timeout"
@@ -322,7 +322,7 @@ msgstr ""
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:25
 msgid "Vhost HTTPS port"
-msgstr ""
+msgstr "„Vhost HTTPS“ prievadas"
 
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:24
 msgid ""
@@ -349,4 +349,4 @@ msgstr ""
 #: applications/luci-app-frps/htdocs/luci-static/resources/view/frps.js:128
 #: applications/luci-app-frps/root/usr/share/luci/menu.d/luci-app-frps.json:3
 msgid "frp Server"
-msgstr ""
+msgstr "„frp“ serveris"

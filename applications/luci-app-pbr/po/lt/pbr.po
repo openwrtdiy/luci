@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2023-10-21 06:20+0000\n"
+"PO-Revision-Date: 2024-03-27 01:01+0000\n"
 "Last-Translator: Džiugas J <dziugas1959@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationspbr/lt/>\n"
@@ -12,17 +12,17 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
 "19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 5.1\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:179
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:221
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:208
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:209
 msgid "%s binary cannot be found"
-msgstr ""
+msgstr "Dvejetainis „%s“ negali būti rastas"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:61
 msgid ""
@@ -30,11 +30,13 @@ msgid ""
 "anything in this section! Change any of the settings below with extreme "
 "caution!%s"
 msgstr ""
+"%sĮSPĖJIMAS:%s Prašome patikrinti %s„SKAITYKITEMANE“%s failą, prieš keičiant "
+"bet ką šioje srityje! Pakeiskite šiuos nustatymus su ypatingu atidumu!%s"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:105
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:106
 msgid "AdGuardHome ipset"
-msgstr ""
+msgstr "„AdGuardHome ipset“"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:133
 msgid "Add"
@@ -52,7 +54,7 @@ msgstr ""
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:60
 msgid "Advanced Configuration"
-msgstr ""
+msgstr "Pažengusi konfigūracija"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:122
 msgid ""
@@ -70,7 +72,7 @@ msgstr ""
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:59
 msgid "Basic Configuration"
-msgstr ""
+msgstr "Paprasta konfigūracija"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:233
 msgid "Chain"
@@ -78,11 +80,11 @@ msgstr "Grandinė"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:70
 msgid "Condensed output"
-msgstr ""
+msgstr "Kondensuota išvestis"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:207
 msgid "Config (%s) validation failure"
-msgstr ""
+msgstr "Konfigūracijos (%s) patikros gedimas"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:68
 msgid "Controls both system log and console output verbosity."
@@ -90,23 +92,23 @@ msgstr ""
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:259
 msgid "Custom User File Includes"
-msgstr ""
+msgstr "Pasirinktinis vartotojo/naudotojo failas įtraukiama"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:224
 msgid "Custom user file '%s' not found or empty"
-msgstr ""
+msgstr "Pasirinktinis vartotojo/naudotojo failas – „%s“ nerastas arba tuščias"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:254
 msgid "DSCP Tag"
-msgstr ""
+msgstr "„DSCP“ žyma"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:249
 msgid "DSCP Tagging"
-msgstr ""
+msgstr "„DSCP“ žymėjimas"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:137
 msgid "Default ICMP Interface"
-msgstr ""
+msgstr "Numatyta „ICMP“ sąsają"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:313
 msgid "Disable"
@@ -116,11 +118,11 @@ msgstr "Išjungti"
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:118
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:171
 msgid "Disabled"
-msgstr "Išjungtas/-i"
+msgstr "Išjungta/-as/-i"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:309
 msgid "Disabling %s service"
-msgstr ""
+msgstr "Išjungiama „%s“ tarnyba"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:177
 msgid "Display these protocols in protocol column in Web UI."
@@ -129,12 +131,12 @@ msgstr ""
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:109
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:110
 msgid "Dnsmasq ipset"
-msgstr ""
+msgstr "„Dnsmasq ipset“"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:113
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:114
 msgid "Dnsmasq nft set"
-msgstr ""
+msgstr "„Dnsmasq nft set“"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:77
 msgid "Do not enforce policies when their gateway is down"
@@ -142,18 +144,18 @@ msgstr ""
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:302
 msgid "Enable"
-msgstr "Įjungti"
+msgstr "Įjungti/Įgalinti"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:119
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:172
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:189
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:267
 msgid "Enabled"
-msgstr "Įjungta"
+msgstr "Įjungta/-as"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:298
 msgid "Enabling %s service"
-msgstr ""
+msgstr "Įjungiama „%s“ tarnyba"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:226
 msgid "Error running custom user file '%s'"
@@ -175,7 +177,7 @@ msgstr ""
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:222
 msgid "Failed to set up '%s'"
-msgstr ""
+msgstr "Nepavyko nustatyti „%s“"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:228
 msgid "Failed to set up any gateway"
@@ -187,11 +189,11 @@ msgstr ""
 
 #: applications/luci-app-pbr/root/usr/share/rpcd/acl.d/luci-app-pbr.json:3
 msgid "Grant UCI and file access for luci-app-pbr"
-msgstr ""
+msgstr "Suteikti „UCI“ ir failų prieigą – „luci-app-pbr“"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:117
 msgid "IPv6 Support"
-msgstr ""
+msgstr "IPv6 palaikymas"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:126
 msgid "Ignored Interfaces"
@@ -199,7 +201,7 @@ msgstr ""
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:134
 msgid "Insert"
-msgstr ""
+msgstr "Įterpkite"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:235
 msgid "Insertion failed for IPv4 for policy %s"
@@ -220,15 +222,15 @@ msgstr "Sąsaja ir Sietuvas"
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:184
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:238
 msgid "Invalid OpenVPN config for %s interface"
-msgstr ""
+msgstr "Negalima „OpenVPN“ konfigūracija „%s“ sąsajai/sietuvui"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:195
 msgid "Local addresses / devices"
-msgstr ""
+msgstr "Vietiniai adresai / įrenginiai"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:200
 msgid "Local ports"
-msgstr ""
+msgstr "Vietiniai prievadai"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:232
 msgid "Mismatched IP family between in policy %s"
@@ -248,7 +250,7 @@ msgstr ""
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:139
 msgid "No Change"
-msgstr ""
+msgstr "Jokio/-ų pakeitimo/-ų"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:157
 msgid "Not installed or not found"
@@ -260,11 +262,12 @@ msgstr ""
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:272
 msgid "Path"
-msgstr ""
+msgstr "Kelias"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:100
 msgid "Please check the %sREADME%s before changing this option."
 msgstr ""
+"Prašome patikrinti %s„SKAITYKITEMANE“%s failą, prieš keičiant šią parinktį."
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:182
 msgid "Please unset 'chain' or set 'chain' to 'PREROUTING' for policy '%s'"
@@ -354,7 +357,7 @@ msgstr "Paleisti iš naujo"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:276
 msgid "Restarting %s service"
-msgstr ""
+msgstr "Iš naujo pasileidžia „%s“ tarnyba"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:131
 msgid "Rule Create option"
@@ -368,19 +371,19 @@ msgstr ""
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:138
 msgid "Running (version: %s using iptables)"
-msgstr ""
+msgstr "Veikia (versija: %s, naudojant „iptables“)"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:141
 msgid "Running (version: %s using nft)"
-msgstr ""
+msgstr "Veikia (versija: %s, naudojant „nft“)"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:144
 msgid "Running (version: %s)"
-msgstr ""
+msgstr "Veikia (versija: %s)"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:75
 msgid "See the %sREADME%s for details."
-msgstr ""
+msgstr "Peržiūrėkite %s„SKAITYKITEMANE“%s failą, norint sužinoti daugiau."
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:132
 msgid "Select Add for -A/add and Insert for -I/Insert."
@@ -388,11 +391,11 @@ msgstr ""
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:337
 msgid "Service Control"
-msgstr ""
+msgstr "Tarnybos valdymas"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:240
 msgid "Service Errors"
-msgstr ""
+msgstr "Tarnybos klaidos"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:156
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:161
@@ -401,15 +404,15 @@ msgstr ""
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:165
 msgid "Service Gateways"
-msgstr ""
+msgstr "Tarnybos tarpuvartės"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:134
 msgid "Service Status"
-msgstr ""
+msgstr "Tarnybos būsena"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:187
 msgid "Service Warnings"
-msgstr ""
+msgstr "Tarnybos įspėjimai"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:250
 msgid ""
@@ -427,7 +430,7 @@ msgstr "Pradėti"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:265
 msgid "Starting %s service"
-msgstr ""
+msgstr "Pradedama %s tarnyba"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:154
 msgid ""
@@ -445,15 +448,15 @@ msgstr "Stop"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:152
 msgid "Stopped (Disabled)"
-msgstr ""
+msgstr "Sustabdyta (Išjungta)"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:149
 msgid "Stopped (version: %s)"
-msgstr ""
+msgstr "Sustabdyta (versija: %s)"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:287
 msgid "Stopping %s service"
-msgstr ""
+msgstr "Stabdoma „%s“ tarnyba"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:74
 msgid "Strict enforcement"
@@ -469,7 +472,7 @@ msgstr ""
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:176
 msgid "Supported Protocols"
-msgstr ""
+msgstr "Palaikomi protokolai"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:69
 msgid "Suppress/No output"
@@ -487,45 +490,46 @@ msgstr ""
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:92
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:98
 msgid "The %s is not supported on this system."
-msgstr ""
+msgstr "„%s“ yra nepalaikomas šioje sistemoje."
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:214
 msgid "The %s service failed to discover WAN gateway"
-msgstr ""
+msgstr "„%s“ tarnybai nepavyko atrasti „WAN“ tinklo tarpuvartę"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:213
 msgid "The %s service is currently disabled"
-msgstr ""
+msgstr "„%s“ tarnyba šiuo laiku yra išjungta"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:83
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:89
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:95
 msgid "The %s support is unknown."
-msgstr ""
+msgstr "„%s“ palaikymas yra nežinomas."
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:185
 msgid "The WebUI application is outdated (version %s), please update it"
-msgstr ""
+msgstr "„WebUI“ programėlė yra pasenusi (versija %s), prašome atnaujinti jį"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:215
 msgid "The ipset name '%s' is longer than allowed 31 characters"
 msgstr ""
+"„ipset“ pavadinimas – „%s“ yra ilgesnis negu leidžiami 31-eri simboliai"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:216
 msgid "The nft set name '%s' is longer than allowed 31 characters"
-msgstr ""
+msgstr "„nft“ pavadinimas – „%s“ yra ilgesnis negu leidžiami 31-eri simboliai"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:217
 msgid "Unexpected exit or service termination: '%s'"
-msgstr ""
+msgstr "Netikėtas išėjimas arba tarnybos sustabdymas: „%s“"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:249
 msgid "Unknown Error!"
-msgstr ""
+msgstr "Nežinoma klaida!"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:196
 msgid "Unknown Warning."
-msgstr ""
+msgstr "Nežinomas įspėjimas."
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:231
 msgid "Unknown packet mark for interface '%s'"
@@ -560,9 +564,9 @@ msgstr ""
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:65
 msgid "Web UI Configuration"
-msgstr ""
+msgstr "Internetinės vartotojo/naudotojo sąsajos konfigūracija"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:224
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:225
 msgid "all"
-msgstr ""
+msgstr "visi"

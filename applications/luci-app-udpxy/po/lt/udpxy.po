@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2023-10-15 04:23+0000\n"
+"PO-Revision-Date: 2024-03-27 01:01+0000\n"
 "Last-Translator: Džiugas J <dziugas1959@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsudpxy/lt/>\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
 "19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:30
 msgid "Bind IP/Interface"
-msgstr ""
+msgstr "Pririšti IP/Sąsają ir/arba sietuvą"
 
 #: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:47
 msgid "Buffer messages"
@@ -32,11 +32,11 @@ msgstr ""
 
 #: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:16
 msgid "Enabled"
-msgstr "Įjungta"
+msgstr "Įjungta/-as"
 
 #: applications/luci-app-udpxy/root/usr/share/rpcd/acl.d/luci-app-udpxy.json:3
 msgid "Grant UCI access for luci-app-udpxy"
-msgstr "Suteikti „UCI“ prieigą „luci-app-udpxy“"
+msgstr "Suteikti „UCI“ prieigą – „luci-app-udpxy“"
 
 #: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:42
 msgid "Log file"
@@ -44,7 +44,7 @@ msgstr "Žurnalo failas"
 
 #: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:39
 msgid "Max clients"
-msgstr ""
+msgstr "Maksimalus klientų skaičius"
 
 #: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:56
 msgid "Multicast subscription renew"
@@ -56,7 +56,7 @@ msgstr ""
 
 #: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:33
 msgid "Port"
-msgstr "Prievadas („Port'as“)"
+msgstr "Prievadas"
 
 #: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:22
 msgid "Respawn"
@@ -64,7 +64,7 @@ msgstr "„Atgimimas“"
 
 #: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:36
 msgid "Source IP/Interface"
-msgstr ""
+msgstr "Šaltinio IP/Sąsają ir/arba sietuvas"
 
 #: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:28
 msgid "Status"

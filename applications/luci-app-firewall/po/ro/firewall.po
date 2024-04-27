@@ -44,11 +44,11 @@ msgstr ""
 "%{helper.name}&quot;\">%{helper.val}</var>:<var data-tooltip=\"%{helper."
 "name}\">%{helper.val}</var>}}"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:461
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:463
 msgid "-- add IP --"
 msgstr "-- adăugați IP --"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:519
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:521
 msgid "-- add MAC --"
 msgstr "-- adăugați MAC --"
 
@@ -145,9 +145,9 @@ msgstr "Trebuie specificat un IP de rescriere!"
 msgid "ACCEPT - Disable address rewriting"
 msgstr "ACCEPT - Dezactivează rescrierea adreselor"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:220
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:223
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:224
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:407
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:410
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:203
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:283
 msgid "Action"
@@ -201,18 +201,18 @@ msgstr "Permite trecerea din <em>zonele sursa</em>:"
 msgid "Allow forward to <em>destination zones</em>:"
 msgstr "Permite trecerea catre <em>zonele sursa</em>:"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:549
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:551
 msgid "Any"
 msgstr "Oricare"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:475
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:491
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:478
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:494
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:348
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:364
 msgid "Any day"
 msgstr "Orice zi"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:316
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:317
 msgid ""
 "Apply a bitwise XOR of the given value and the existing mark value on "
 "established connections. Format is value[/mask]. If a mask is specified then "
@@ -222,11 +222,11 @@ msgstr ""
 "existente pe conexiunile stabilite. Formatul este value[/mask]. Dacă se "
 "specifică o mască, atunci acei biți setați în mască sunt eliminați."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:263
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:264
 msgid "Apply the given DSCP class or value to established connections."
 msgstr "Aplică clasa sau valoarea DSCP dată la conexiunile stabilite."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:435
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:438
 msgid "Assign the specified connection tracking helper to matched traffic."
 msgstr ""
 "Alocarea ajutorului de urmărire a conexiunilor specificat pentru traficul "
@@ -260,7 +260,7 @@ msgstr "Ajutoarele Conntrack"
 msgid "Contents have been saved."
 msgstr "Conţinutul a fost salvat."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:698
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:700
 msgid "Continue"
 msgstr "Continuați"
 
@@ -295,29 +295,29 @@ msgstr ""
 "după fiecare repornire a firewall-ului, imediat după ce setul de reguli "
 "implicite a fost încărcat."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:417
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:420
 msgid "DSCP classification"
 msgstr "Clasificarea DSCP"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:262
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:263
 msgid "DSCP mark"
 msgstr "Marcaj DSCP"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:296
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:297
 msgid "DSCP mark required"
 msgstr "Marcaj DSCP necesar"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:398
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:401
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:266
 msgid "Destination address"
 msgstr "Adresa de destinație"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:400
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:403
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:274
 msgid "Destination port"
 msgstr "Portul de destinație"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:392
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:395
 msgid "Destination zone"
 msgstr "Zonă de destinație"
 
@@ -338,13 +338,13 @@ msgstr ""
 msgid "Drop invalid packets"
 msgstr "Descarcă pachetele invalide"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:228
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:231
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:230
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:209
 msgid "Enable"
 msgstr "Activează"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:302
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:305
 msgid "Enable NAT Loopback"
 msgstr "Activează loopback NAT"
 
@@ -382,7 +382,7 @@ msgstr "activat"
 msgid "Enables packet and byte count tracking for the set."
 msgstr "Activează urmărirea numărului de pachete și de octeți pentru set."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:338
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:339
 msgid "Expecting: %s"
 msgstr "Se așteaptă: %s"
 
@@ -396,16 +396,16 @@ msgstr ""
 "Alege în mod explicit ajutoarele de urmărire a conexiunilor permise pentru "
 "traficul din zonă"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:270
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:273
 msgid "External IP address"
 msgstr "Adresă IP externă"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:275
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:278
 msgid "External port"
 msgstr "Port extern"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:345
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:466
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:348
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:469
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:338
 msgid "Extra arguments"
 msgstr "Argumente suplimentare"
@@ -454,7 +454,7 @@ msgstr "Firewall - Reguli ale traficului"
 msgid "Firewall - Zone Settings"
 msgstr "Setari zona la firewall"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:691
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:693
 msgid "Firewall configuration migration"
 msgstr "Migrarea configurației firewall-ului"
 
@@ -479,7 +479,7 @@ msgstr ""
 "tooltip=\"Mask fwmark value with %{mark.mask} before compare.\"}}>%{mark.val}"
 "</var>}"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:481
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:484
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:354
 msgid "Friday"
 msgstr "Vineri"
@@ -575,12 +575,13 @@ msgstr "IP-uri/Rețele/MAC-uri"
 msgid "IPv4"
 msgstr "IPv4"
 
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:190
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:279
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:250
 msgid "IPv4 and IPv6"
 msgstr "IPv4 și IPv6"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:190
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:191
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:280
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:218
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:251
@@ -595,7 +596,7 @@ msgstr "IPv6"
 msgid "IPv6 Masquerading"
 msgstr "Mascare IPv6"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:191
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:192
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:281
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:219
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:252
@@ -643,23 +644,23 @@ msgstr "Dimensiunea inițială a hash-ului"
 msgid "Input"
 msgstr "Intrare"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:288
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:291
 msgid "Internal IP address"
 msgstr "Adresa IP interna"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:293
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:296
 msgid "Internal port"
 msgstr "Port intern"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:283
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:286
 msgid "Internal zone"
 msgstr "Zonă internă"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:304
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:305
 msgid "Invalid DSCP mark"
 msgstr "Marcaj DSCP invalid"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:372
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:373
 msgid "Invalid limit value"
 msgstr "Valoare limită invalidă"
 
@@ -667,7 +668,7 @@ msgstr "Valoare limită invalidă"
 msgid "Invalid set name"
 msgstr ""
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:382
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:383
 msgid "Limit burst"
 msgstr "Limitați explozia"
 
@@ -675,7 +676,7 @@ msgstr "Limitați explozia"
 msgid "Limit log messages"
 msgstr "Limitează mesaje în log"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:348
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:349
 msgid "Limit matching"
 msgstr "Potrivirea limitelor"
 
@@ -694,11 +695,11 @@ msgstr ""
 msgid "Limited masquerading enabled"
 msgstr "Activarea limitată a mascării"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:349
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:350
 msgid "Limits traffic matching to the specified rate."
 msgstr "Limitează potrivirea traficului la rata specificată."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:307
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:310
 msgid "Loopback source IP"
 msgstr "IP sursă Loopback"
 
@@ -714,13 +715,13 @@ msgstr "Ajustare MSS"
 msgid "Masquerading"
 msgstr "Translatare"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:209
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:212
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:213
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:192
 msgid "Match"
 msgstr "Potrivire"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:262
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:263
 msgid "Match DSCP"
 msgstr "Potrivire DSCP"
 
@@ -754,12 +755,12 @@ msgstr ""
 "Potrivește traficul redirecționat care provine din portul sursă sau din "
 "intervalul de porturi dat."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:322
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:442
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:325
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:445
 msgid "Match helper"
 msgstr "Ajutor de potrivire"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:276
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:279
 msgid ""
 "Match incoming traffic directed at the given destination port or port range "
 "on this host"
@@ -767,18 +768,18 @@ msgstr ""
 "Potrivește traficul de intrare direcționat către portul de destinație sau "
 "intervalul de porturi dat pe această gazdă"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:315
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:316
 msgid "Match mark"
 msgstr "Marca de meci"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:322
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:442
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:325
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:445
 msgid "Match traffic using the specified connection tracking helper."
 msgstr ""
 "Potrivește traficul care utilizează ajutorul de urmărire a conexiunilor "
 "specificat."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:318
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:319
 msgid "Matches a specific firewall mark or a range of different marks."
 msgstr ""
 "Se potrivește cu o anumită marcă de firewall sau cu o serie de mărci "
@@ -790,7 +791,7 @@ msgstr ""
 "Potrivește traficul redirecționat utilizând dispozitivul de rețea de ieșire "
 "specificat."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:263
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:264
 msgid "Matches traffic carrying the specified DSCP marking."
 msgstr "Potrivește traficul care poartă marcajul DSCP specificat."
 
@@ -802,7 +803,7 @@ msgstr "Intrări max"
 msgid "Max Length"
 msgstr "Lungime maximă"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:383
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:384
 msgid ""
 "Maximum initial number of packets to match: this number gets recharged by "
 "one every time the limit specified above is not reached, up to this number."
@@ -811,12 +812,12 @@ msgstr ""
 "se reîncarcă cu unu de fiecare dată când limita specificată mai sus nu este "
 "atinsă, până la acest număr."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:477
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:480
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:350
 msgid "Monday"
 msgstr "Luni"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:487
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:490
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:360
 msgid "Month Days"
 msgstr "Luna Zile"
@@ -847,21 +848,21 @@ msgstr "Nume"
 msgid "Netmask"
 msgstr "Mască de rețea"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:271
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:274
 msgid "Only match incoming traffic directed at the given IP address."
 msgstr ""
 "Se potrivește numai cu traficul de intrare direcționat către adresa IP dată."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:252
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:255
 msgid "Only match incoming traffic from these MACs."
 msgstr "Potriviți numai traficul de intrare de la aceste MAC-uri."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:257
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:260
 msgid "Only match incoming traffic from this IP or range."
 msgstr ""
 "Se potrivește numai cu traficul de intrare de la acest IP sau interval."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:262
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:265
 msgid ""
 "Only match incoming traffic originating from the given source port or port "
 "range on the client host"
@@ -900,8 +901,8 @@ msgstr ""
 "net, set</code>.<br />. Prefixele de direcție sunt opționale.<br />*Nota: "
 "tipul de date <code>set</code> nu este acceptat în fw4."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:346
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:467
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:349
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:470
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:339
 msgid "Passes additional arguments to iptables. Use with care!"
 msgstr "Transmite argumente suplimentare către iptables. Folosiți cu grijă!"
@@ -943,20 +944,20 @@ msgstr ""
 msgid "Port range"
 msgstr "interval de porturi"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:233
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:236
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:288
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:238
 msgid "Protocol"
 msgstr "Protocol"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:294
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:297
 msgid ""
 "Redirect matched incoming traffic to the given port on the internal host"
 msgstr ""
 "Redirecționează traficul de intrare corespunzător către portul dat pe gazda "
 "internă"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:289
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:292
 msgid "Redirect matched incoming traffic to the specified internal host"
 msgstr ""
 "Redirecționează traficul de intrare corespunzător către gazda internă "
@@ -966,7 +967,7 @@ msgstr ""
 msgid "Refer To External Set"
 msgstr "Consultați Setul extern"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:316
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:319
 msgid "Reflection zones"
 msgstr "Zone de reflexie"
 
@@ -1015,16 +1016,16 @@ msgstr "Rutarea/încărcarea NAT"
 msgid "SNAT - Rewrite to specific source IP or port"
 msgstr "SNAT - Rescrierea către un anumit IP sau port sursă"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:482
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:485
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:355
 msgid "Saturday"
 msgstr "Sâmbătă"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:315
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:316
 msgid "Set mark"
 msgstr "Marca de setare"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:317
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:318
 msgid ""
 "Set the given mark value on established connections. Format is value[/mask]. "
 "If a mask is specified then only those bits set in the mask are modified."
@@ -1041,28 +1042,28 @@ msgstr "Descărcarea bazată pe software pentru rutare/NAT"
 msgid "Software flow offloading"
 msgstr "Descărcarea fluxului de software"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:256
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:259
 msgid "Source IP address"
 msgstr "Sursă adresă IP"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:251
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:382
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:254
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:385
 msgid "Source MAC address"
 msgstr "Sursă adresă MAC"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:383
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:386
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:249
 msgid "Source address"
 msgstr "Adresă sursă"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:261
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:385
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:264
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:388
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:257
 msgid "Source port"
 msgstr "Port sursă"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:237
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:368
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:240
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:371
 msgid "Source zone"
 msgstr "Zona sursa"
 
@@ -1074,7 +1075,7 @@ msgstr ""
 "Specifică dacă se leagă această regulă de trafic de un anumit dispozitiv de "
 "intrare sau de ieșire din rețea."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:307
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:310
 msgid ""
 "Specifies whether to use the external or the internal IP address for "
 "reflected traffic."
@@ -1082,22 +1083,22 @@ msgstr ""
 "Specifică dacă se utilizează adresa IP externă sau internă pentru traficul "
 "reflectat."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:506
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:509
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:379
 msgid "Start Date (yyyy-mm-dd)"
 msgstr "Data de începere (yyyy-mm-dd)"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:498
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:501
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:371
 msgid "Start Time (hh:mm:ss)"
 msgstr "Ora de începere (hh:mm:ss)"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:510
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:513
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:383
 msgid "Stop Date (yyyy-mm-dd)"
 msgstr "Data de oprire (yyyy-mm-dd)"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:502
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:505
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:375
 msgid "Stop Time (hh:mm:ss)"
 msgstr "Timp de oprire (hh:mm:ss)"
@@ -1106,12 +1107,12 @@ msgstr "Timp de oprire (hh:mm:ss)"
 msgid "Storage Method"
 msgstr "Metoda de stocare"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:476
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:479
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:349
 msgid "Sunday"
 msgstr "Duminică"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:692
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:694
 msgid ""
 "The existing firewall configuration needs to be changed for LuCI to function "
 "properly."
@@ -1160,7 +1161,7 @@ msgstr ""
 "diferite rețele din cadrul zonei. <em>Rețele acoperite</em> specifică ce "
 "rețele disponibile sunt membre ale acestei zone."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:480
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:483
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:353
 msgid "Thursday"
 msgstr "Joi"
@@ -1170,7 +1171,7 @@ msgstr "Joi"
 msgid "Time Restrictions"
 msgstr "Restricţii de timp"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:514
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:517
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:387
 msgid "Time in UTC"
 msgstr "Timp în UTC"
@@ -1223,7 +1224,7 @@ msgstr ""
 "var>}}%{dest_port?, port %{dest_port#%{next?, }<var%{item.inv? data-"
 "tooltip=\"Match ports except %{item.val}.\"}>%{item.ival}</var>}}"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:435
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:438
 msgid "Tracking helper"
 msgstr "Ajutor pentru urmărire"
 
@@ -1242,7 +1243,7 @@ msgstr ""
 "între diferite zone, de exemplu pentru a respinge traficul între anumite "
 "gazde sau pentru a deschide porturile WAN pe router."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:478
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:481
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:351
 msgid "Tuesday"
 msgstr "Marţi"
@@ -1259,8 +1260,8 @@ msgstr ""
 "Unitate: secunde. Implicit <code>0</code> înseamnă că intrarea este adăugată "
 "permanent la set. <br /> Max: 2147483 secunde."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:337
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:457
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:340
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:460
 msgid "Unknown or not installed conntrack helper \"%s\""
 msgstr "Ajutor conntrack necunoscut sau neinstalat \"%s\""
 
@@ -1287,11 +1288,11 @@ msgstr "Set fără nume"
 msgid "Unnamed zone"
 msgstr "Zona fără nume"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:595
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:597
 msgid "Unrecognized protocol"
 msgstr "Protocol nerecunoscut"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:693
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:695
 msgid ""
 "Upon pressing \"Continue\", \"redirect\" sections with target \"SNAT\" will "
 "be converted to \"nat\" sections and the firewall will be restarted to apply "
@@ -1301,16 +1302,16 @@ msgstr ""
 "\"SNAT\" vor fi convertite în secțiuni \"nat\", iar firewall-ul va fi "
 "repornit pentru a aplica configurația actualizată."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:311
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:314
 msgid "Use external IP address"
 msgstr "Utilizați adresa IP externă"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:310
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:313
 msgid "Use internal IP address"
 msgstr "Utilizați adresa IP internă"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:243
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:374
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:246
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:377
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:318
 msgid "Use ipset"
 msgstr "Utilizați ipset"
@@ -1331,25 +1332,25 @@ msgstr ""
 "Utilizați această opțiune pentru a clasifica traficul din zonă în funcție de "
 "subnetul sursă sau destinație în loc de rețele sau dispozitive."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:330
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:331
 msgid "Valid firewall mark required"
 msgstr "Este necesară o marcă de firewall validă"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:479
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:482
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:352
 msgid "Wednesday"
 msgstr "Miercuri"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:471
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:474
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:344
 msgid "Week Days"
 msgstr "Zilele săptămânii"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:416
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:419
 msgid "XOR firewall mark"
 msgstr "XOR marca firewall"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:315
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:316
 msgid "XOR mark"
 msgstr "Marcajul XOR"
 
@@ -1369,7 +1370,7 @@ msgstr "Zonă ⇒ Redirecționări"
 msgid "Zones"
 msgstr "Zone"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:316
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:319
 msgid ""
 "Zones from which reflection rules shall be created. If unset, only the "
 "destination zone is used."
@@ -1377,22 +1378,22 @@ msgstr ""
 "Zonele din care se creează reguli de reflecție. Dacă nu este setată, se "
 "utilizează numai zona de destinație."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:411
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:414
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:70
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:153
 msgid "accept"
 msgstr "acceptă"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:267
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:461
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:484
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:266
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:297
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:324
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:388
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:403
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:437
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:444
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:268
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:463
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:486
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:269
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:300
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:327
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:391
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:406
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:440
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:447
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:262
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:278
 msgid "any"
@@ -1411,15 +1412,15 @@ msgstr "orice zona"
 msgid "any/all"
 msgstr "orice/toate"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:415
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:418
 msgid "apply firewall mark"
 msgstr "aplică marcajul firewall"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:414
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:417
 msgid "assign conntrack helper"
 msgstr "atribuirea ajutorului conntrack"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:192
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:193
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:220
 msgid "automatic"
 msgstr "automat"
@@ -1462,11 +1463,11 @@ msgstr "dest_set: Destinație ipset*"
 msgid "do not rewrite"
 msgstr "nu rescrieți"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:413
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:416
 msgid "don't track"
 msgstr "nu urmăriți"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:410
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:413
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:69
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:152
 msgid "drop"
@@ -1540,7 +1541,7 @@ msgstr "net: (sub)net"
 msgid "port: Port"
 msgstr "port: Port"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:412
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:415
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:68
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:151
 msgid "reject"
@@ -1591,7 +1592,7 @@ msgstr "acest dispozitiv"
 msgid "this new zone"
 msgstr "această nouă zonă"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:353
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:354
 msgid "unlimited"
 msgstr "nelimitat"
 
@@ -1604,6 +1605,6 @@ msgstr "nespecificat"
 msgid "up to 65536 entries."
 msgstr "până la 65536 intrări."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:338
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:339
 msgid "valid firewall mark"
 msgstr "marca de firewall validă"

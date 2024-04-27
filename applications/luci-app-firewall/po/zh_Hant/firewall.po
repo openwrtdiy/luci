@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-15 14:40+0000\n"
-"Last-Translator: Hulen <shift0106@gmail.com>\n"
+"PO-Revision-Date: 2024-01-05 04:02+0000\n"
+"Last-Translator: Yuan Law <traverslombard@outlook.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "openwrt/luciapplicationsfirewall/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:48
 msgid ""
@@ -40,27 +40,27 @@ msgstr ""
 "配。\">%{helper.val}</var>:<var data-tooltip=\"%{helper.name}\">%{helper.val}"
 "</var>}}"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:461
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:463
 msgid "-- add IP --"
 msgstr "-- 新增 IP --"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:519
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:521
 msgid "-- add MAC --"
 msgstr "-- 新增 MAC 位置 --"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:198
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:181
 msgid "1024"
-msgstr ""
+msgstr "1024"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:118
 msgid ""
 "<var data-tooltip=\"ACCEPT\">Accept</var> %{src?%{dest?forward:input}:output}"
 msgstr ""
-"<var data-tooltip=\"ACCEPT\">套用</var> %{src?%{dest?forward:input}:output}"
+"<var data-tooltip=\"ACCEPT\">接受</var> %{src?%{dest?forward:input}:output}"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:93
 msgid "<var data-tooltip=\"ACCEPT\">Prevent source rewrite</var>"
@@ -138,13 +138,13 @@ msgstr "必須指定重置IP!"
 msgid "ACCEPT - Disable address rewriting"
 msgstr "接受 - 禁用位址重置"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:220
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:223
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:224
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:407
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:410
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:203
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:283
 msgid "Action"
-msgstr "動作"
+msgstr "操作"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:316
 msgid ""
@@ -165,13 +165,13 @@ msgstr ""
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:107
 msgid "Address family, Internal IP address must match"
-msgstr ""
+msgstr "族"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:135
 msgid ""
 "Address family, source address, destination address, rewrite IP address must "
 "match"
-msgstr ""
+msgstr "位址族、來源位址、目的位址、重寫IP位址必須匹配"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:161
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:182
@@ -192,18 +192,18 @@ msgstr "允許從<em>來源區域</em>轉發："
 msgid "Allow forward to <em>destination zones</em>:"
 msgstr "允許轉發到<em>目標區</em>："
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:549
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:551
 msgid "Any"
 msgstr "任何"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:475
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:491
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:478
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:494
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:348
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:364
 msgid "Any day"
 msgstr "任一天"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:316
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:317
 msgid ""
 "Apply a bitwise XOR of the given value and the existing mark value on "
 "established connections. Format is value[/mask]. If a mask is specified then "
@@ -212,11 +212,11 @@ msgstr ""
 "在給定的連接上對給定值和現有標記值進行按位XOR。格式為value [/mask]。如果指定"
 "了遮罩，則將遮罩中設置的那些位元清零。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:263
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:264
 msgid "Apply the given DSCP class or value to established connections."
 msgstr "啟用付予的DSCP(區別服務代碼點)來建立連線."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:435
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:438
 msgid "Assign the specified connection tracking helper to matched traffic."
 msgstr "指定特定的連線追蹤幫手來匹配流量."
 
@@ -232,7 +232,7 @@ msgstr "根據流量和埠號自動指定conntrack幫手"
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:60
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:61
 msgid "Comment"
-msgstr ""
+msgstr "註解"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:109
 msgid "Conntrack Settings"
@@ -246,13 +246,13 @@ msgstr "Conntrack 幫手"
 msgid "Contents have been saved."
 msgstr "內容已儲存。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:698
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:700
 msgid "Continue"
 msgstr "繼續"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:203
 msgid "Counters"
-msgstr ""
+msgstr "計數器"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:225
 msgid "Covered devices"
@@ -279,29 +279,29 @@ msgstr ""
 "自訂規則允許您執行不屬於防火牆框架的任意 iptables 指令。每次重啟防火牆時，在"
 "預設的規則執行後這些指令將立即執行。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:417
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:420
 msgid "DSCP classification"
 msgstr "DSCP(區別服務代碼點)分類"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:262
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:263
 msgid "DSCP mark"
 msgstr "DSCP(區別服務代碼點)標記"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:296
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:297
 msgid "DSCP mark required"
 msgstr "DSCP(區別服務代碼點)必須標記"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:398
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:401
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:266
 msgid "Destination address"
 msgstr "目標位址"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:400
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:403
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:274
 msgid "Destination port"
 msgstr "目的通訊埠"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:392
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:395
 msgid "Destination zone"
 msgstr "目標區域"
 
@@ -321,13 +321,13 @@ msgstr ""
 msgid "Drop invalid packets"
 msgstr "丟棄無效封包"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:228
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:231
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:230
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:209
 msgid "Enable"
 msgstr "啟用"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:302
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:305
 msgid "Enable NAT Loopback"
 msgstr "啟用 NAT 環回"
 
@@ -345,22 +345,24 @@ msgid ""
 "outbound traffic on this zone. This is typically enabled on the <em>wan</em> "
 "zone."
 msgstr ""
+"為此區域的出站流量開啟網路位址和端口轉換 IPv4 （NAT4 或 NAPT4）。 <em>wan</"
+"em>區域通常開啟此功能。"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:237
 msgid ""
 "Enable network address and port translation IPv6 (NAT6 or NAPT6) for "
 "outbound traffic on this zone."
-msgstr ""
+msgstr "為此區域出站流量開啟網路位址和端口轉換 IPv6 （NAT6 或 NAPT6）。"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:210
 msgid "Enabled"
-msgstr ""
+msgstr "啟用"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:204
 msgid "Enables packet and byte count tracking for the set."
-msgstr ""
+msgstr "為該集合開啟數據包和字節計數追蹤。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:338
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:339
 msgid "Expecting: %s"
 msgstr "預期: %s"
 
@@ -372,16 +374,16 @@ msgstr "實驗性功能。與 QoS/SQM 不完全相容。"
 msgid "Explicitly choses allowed connection tracking helpers for zone traffic"
 msgstr "針對區域流量明確選擇已允許的連接追蹤幫手"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:270
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:273
 msgid "External IP address"
 msgstr "外部 IP 位址"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:275
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:278
 msgid "External port"
 msgstr "外部埠號"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:345
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:466
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:348
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:469
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:338
 msgid "Extra arguments"
 msgstr "額外引數"
@@ -400,7 +402,7 @@ msgstr "額外來源引數"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:66
 msgid "Family"
-msgstr ""
+msgstr "族"
 
 #: applications/luci-app-firewall/root/usr/share/luci/menu.d/luci-app-firewall.json:3
 msgid "Firewall"
@@ -412,7 +414,7 @@ msgstr "防火牆 - 自訂規則"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:20
 msgid "Firewall - IP sets"
-msgstr ""
+msgstr "防火牆 - IP 集合"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:172
 msgid "Firewall - NAT Rules"
@@ -430,7 +432,7 @@ msgstr "防火牆 - 流量規則"
 msgid "Firewall - Zone Settings"
 msgstr "防火牆 - 區域設定"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:691
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:693
 msgid "Firewall configuration migration"
 msgstr "防火牆設定移轉"
 
@@ -448,8 +450,13 @@ msgid ""
 "tooltip=\"Mask fwmark value with %{mark.mask} before compare.\"}}>%{mark.val}"
 "</var>}"
 msgstr ""
+"轉發 %{ipv6?%{ipv4?<var>IPv4</var> and <var>IPv6</var>:<var>IPv6</var>}:"
+"<var>IPv4</var>}%{proto?, 協定 %{proto#%{next?, }<var>%{item.name}</"
+"var>}}%{mark?, mark <var%{mark.inv? data-tooltip=\"匹配 fwmarks 除了 %{mark."
+"num}%{mark.mask? with mask %{mark.mask}}.\":%{mark.mask? data-tooltip=\"遮罩 "
+"fwmark 值 %{mark.mask} before compare.\"}}>%{mark.val}</var>}"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:481
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:484
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:354
 msgid "Friday"
 msgstr "星期五"
@@ -525,31 +532,32 @@ msgstr "硬體流量卸載"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:143
 msgid "IP (range)"
-msgstr ""
+msgstr "IP (範圍)"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:32
 #: applications/luci-app-firewall/root/usr/share/luci/menu.d/luci-app-firewall.json:53
 msgid "IP Sets"
-msgstr ""
+msgstr "IP 集合"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:151
 msgid "IPs/Networks"
-msgstr ""
+msgstr "IP/網路"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:106
 msgid "IPs/Networks/MACs"
-msgstr ""
+msgstr "IP/網路/MAC 位址"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:67
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:190
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:279
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:250
 msgid "IPv4 and IPv6"
 msgstr "IPv4 和 IPv6"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:190
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:191
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:280
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:218
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:251
@@ -558,13 +566,13 @@ msgstr "僅 IPv4"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:68
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:236
 msgid "IPv6 Masquerading"
-msgstr ""
+msgstr "IPv6 偽裝"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:191
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:192
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:281
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:219
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:252
@@ -577,7 +585,7 @@ msgstr "輸入設備"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:186
 msgid "Include File"
-msgstr ""
+msgstr "包括文件"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:40
 msgid ""
@@ -592,41 +600,51 @@ msgid ""
 "any helper except &quot;%{helper.name}&quot;\">%{helper.val}</var>:<var data-"
 "tooltip=\"%{helper.name}\">%{helper.val}</var>}}"
 msgstr ""
+"傳入 %{ipv6?%{ipv4?<var>IPv4</var> and <var>IPv6</var>:<var>IPv6</var>}:"
+"<var>IPv4</var>}%{proto?, 協定 %{proto#%{next?, }%{item.types?<var "
+"class=\"cbi-tooltip-container\">%{item.name}<span class=\"cbi-tooltip\">ICMP "
+"with types %{item.types#%{next?, }<var>%{item}</var>}</span></var>:"
+"<var>%{item.name}</var>}}}%{mark?, mark <var%{mark.inv? data-tooltip=\"Match "
+"fwmarks except %{mark.num}%{mark.mask? with mask %{mark.mask}}.\":%{mark."
+"mask? data-tooltip=\"Mask fwmark value with %{mark.mask} before compare.\"}}"
+">%{mark.val}</var>}%{helper?, helper %{helper.inv?<var data-tooltip=\"Match "
+"any helper except &quot;%{helper.name}&quot;\">%{helper.val}</var>:<var data-"
+"tooltip=\"%{helper.name}\">%{helper.val}</var>}}"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:179
 msgid "Initial Hash Size"
-msgstr ""
+msgstr "初始雜湊大小"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:62
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:145
 msgid "Input"
 msgstr "入站資料"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:288
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:291
 msgid "Internal IP address"
 msgstr "內部 IP 位址"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:293
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:296
 msgid "Internal port"
 msgstr "內部埠"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:283
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:286
 msgid "Internal zone"
 msgstr "內部區域"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:304
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:305
 msgid "Invalid DSCP mark"
 msgstr "不正確的差異服務的程式碼點 DSCP標記"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:372
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:373
 msgid "Invalid limit value"
 msgstr "不正確的限制值"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:46
 msgid "Invalid set name"
-msgstr ""
+msgstr "集合名無效"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:382
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:383
 msgid "Limit burst"
 msgstr "限制爆潰"
 
@@ -634,7 +652,7 @@ msgstr "限制爆潰"
 msgid "Limit log messages"
 msgstr "限制日誌資訊量"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:348
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:349
 msgid "Limit matching"
 msgstr "限制相符"
 
@@ -653,11 +671,11 @@ msgstr ""
 msgid "Limited masquerading enabled"
 msgstr "已啟用有限偽裝"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:349
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:350
 msgid "Limits traffic matching to the specified rate."
 msgstr "限制流量相符到指定速率."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:307
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:310
 msgid "Loopback source IP"
 msgstr "回送來源IP"
 
@@ -673,13 +691,13 @@ msgstr "MSS 鉗制"
 msgid "Masquerading"
 msgstr "IP 動態偽裝"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:209
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:212
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:213
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:192
 msgid "Match"
 msgstr "相符規則"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:262
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:263
 msgid "Match DSCP"
 msgstr "相符 DSCP(區別服務代碼點)"
 
@@ -709,27 +727,27 @@ msgid ""
 "Match forwarded traffic originating from the given source port or port range."
 msgstr "相符轉發的流量源自給定的來源埠或範圍埠."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:322
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:442
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:325
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:445
 msgid "Match helper"
 msgstr "相符小幫手"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:276
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:279
 msgid ""
 "Match incoming traffic directed at the given destination port or port range "
 "on this host"
 msgstr "相符指向此主機上指定目標埠或目標埠範圍的入站流量"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:315
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:316
 msgid "Match mark"
 msgstr "相符標記"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:322
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:442
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:325
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:445
 msgid "Match traffic using the specified connection tracking helper."
 msgstr "相符流量使用特定的連線追蹤小幫手."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:318
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:319
 msgid "Matches a specific firewall mark or a range of different marks."
 msgstr "相符特定的FW防火牆標記或者不同的範圍標記."
 
@@ -737,19 +755,19 @@ msgstr "相符特定的FW防火牆標記或者不同的範圍標記."
 msgid "Matches forwarded traffic using the specified outbound network device."
 msgstr "相符正使用特定輸出網路設備的轉發流量."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:263
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:264
 msgid "Matches traffic carrying the specified DSCP marking."
 msgstr "相符附帶特定之DSCP(區別服務代碼點)標記的流量."
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:112
 msgid "Max Entries"
-msgstr ""
+msgstr "最大條目數"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:171
 msgid "Max Length"
-msgstr ""
+msgstr "最大長度"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:383
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:384
 msgid ""
 "Maximum initial number of packets to match: this number gets recharged by "
 "one every time the limit specified above is not reached, up to this number."
@@ -757,12 +775,12 @@ msgstr ""
 "相符的最大初始封包數量; 每次未達到上述指定的限制時,此數量將逐一地充實,直到此"
 "數量為止."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:477
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:480
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:350
 msgid "Monday"
 msgstr "星期一"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:487
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:490
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:360
 msgid "Month Days"
 msgstr "每月天數"
@@ -789,21 +807,21 @@ msgstr "名稱"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:165
 msgid "Netmask"
-msgstr ""
+msgstr "網路遮罩"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:271
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:274
 msgid "Only match incoming traffic directed at the given IP address."
 msgstr "僅相符指定目的 IP 位址的入站流量。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:252
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:255
 msgid "Only match incoming traffic from these MACs."
 msgstr "僅相符來自這些 MAC 的入站流量。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:257
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:260
 msgid "Only match incoming traffic from this IP or range."
 msgstr "僅相符來自此 IP 或 IP 範圍的入站流量。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:262
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:265
 msgid ""
 "Only match incoming traffic originating from the given source port or port "
 "range on the client host"
@@ -825,7 +843,7 @@ msgstr "出站資料"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:74
 msgid "Packet Field Match"
-msgstr ""
+msgstr "封包字段匹配"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:75
 msgid ""
@@ -834,9 +852,13 @@ msgid ""
 "Datatypes: <code>ip, port, mac, net, set</code>.<br />Direction prefixes are "
 "optional.<br />*Note: datatype <code>set</code> is unsupported in fw4."
 msgstr ""
+"要進行匹配的封包字段。<br />語法：<em>direction_datatype</em>。如："
+"<code>src_port, dest_net</code>。<br />方向：<code>src, dst</code>。數據類"
+"型：<code>ip, port, mac, net, set</code>。<br />方向前綴可選。<br />*注意："
+"datatype <code>set</code> 在 fw4 中不受支持。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:346
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:467
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:349
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:470
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:339
 msgid "Passes additional arguments to iptables. Use with care!"
 msgstr "傳遞附加引數到 iptables，小心使用！"
@@ -855,7 +877,7 @@ msgstr ""
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:187
 msgid "Path to file of CIDRs, subnets, host IPs, etc.<br />"
-msgstr ""
+msgstr "CIDRs、subnets、host IP 等文件的路徑。<br />"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:155
 #: applications/luci-app-firewall/root/usr/share/luci/menu.d/luci-app-firewall.json:26
@@ -870,30 +892,30 @@ msgstr "通訊埠轉發允許 Internet 上的遠端電腦連線到內部網路�
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:157
 msgid "Port range"
-msgstr ""
+msgstr "埠範圍"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:233
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:236
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:288
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:238
 msgid "Protocol"
 msgstr "協定"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:294
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:297
 msgid ""
 "Redirect matched incoming traffic to the given port on the internal host"
 msgstr "重新導向相符的入站流量到內部主機給予的埠號"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:289
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:292
 msgid "Redirect matched incoming traffic to the specified internal host"
 msgstr "重新導向相符的入站流量到指定的內部主機"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:121
 msgid "Refer To External Set"
-msgstr ""
+msgstr "參考外部集合"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:316
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:319
 msgid "Reflection zones"
-msgstr ""
+msgstr "回應區"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:89
 msgid "Requires hardware NAT support."
@@ -938,16 +960,16 @@ msgstr "路由/NAT 卸載"
 msgid "SNAT - Rewrite to specific source IP or port"
 msgstr "SNAT - 重置到特定的來源IP或埠"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:482
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:485
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:355
 msgid "Saturday"
 msgstr "星期六"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:315
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:316
 msgid "Set mark"
 msgstr "設定標記"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:317
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:318
 msgid ""
 "Set the given mark value on established connections. Format is value[/mask]. "
 "If a mask is specified then only those bits set in the mask are modified."
@@ -963,28 +985,28 @@ msgstr "軟體式的 路由/NAT 卸載"
 msgid "Software flow offloading"
 msgstr "軟體式流量卸載"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:256
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:259
 msgid "Source IP address"
 msgstr "來源 IP 位址"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:251
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:382
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:254
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:385
 msgid "Source MAC address"
 msgstr "來源 MAC 位址"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:383
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:386
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:249
 msgid "Source address"
 msgstr "來源位址"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:261
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:385
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:264
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:388
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:257
 msgid "Source port"
 msgstr "來源埠"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:237
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:368
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:240
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:371
 msgid "Source zone"
 msgstr "來源區域"
 
@@ -992,44 +1014,44 @@ msgstr "來源區域"
 msgid ""
 "Specifies whether to tie this traffic rule to a specific inbound or outbound "
 "network device."
-msgstr "指定是否將此流量規則綁定到特定的輸入或輸出的網絡設備."
+msgstr "指定是否將此流量規則綁定到特定的輸入或輸出的網路設備."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:307
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:310
 msgid ""
 "Specifies whether to use the external or the internal IP address for "
 "reflected traffic."
 msgstr "指定是使用外部IP地址還是內部IP地址來映射流量."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:506
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:509
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:379
 msgid "Start Date (yyyy-mm-dd)"
 msgstr "開始日期（西元年-月-日）"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:498
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:501
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:371
 msgid "Start Time (hh:mm:ss)"
 msgstr "啟動時間 (小時.分鐘.秒)"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:510
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:513
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:383
 msgid "Stop Date (yyyy-mm-dd)"
 msgstr "停止日期（西元年-月-日）"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:502
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:505
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:375
 msgid "Stop Time (hh:mm:ss)"
 msgstr "停止時間 (小時.分鐘.秒)"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:129
 msgid "Storage Method"
-msgstr ""
+msgstr "儲存方式"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:476
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:479
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:349
 msgid "Sunday"
 msgstr "星期日"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:692
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:694
 msgid ""
 "The existing firewall configuration needs to be changed for LuCI to function "
 "properly."
@@ -1069,7 +1091,7 @@ msgstr ""
 "域入站和出站流量的預設策略，<em>轉發</em>選項描述該區域內不同網路之間的流量轉"
 "發策略。<em>覆蓋網路</em>指定從屬於這個區域的網路。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:480
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:483
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:353
 msgid "Thursday"
 msgstr "星期四"
@@ -1079,7 +1101,7 @@ msgstr "星期四"
 msgid "Time Restrictions"
 msgstr "時間限制"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:514
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:517
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:387
 msgid "Time in UTC"
 msgstr "UTC 時間"
@@ -1090,7 +1112,7 @@ msgstr "對該規則啟用了時間限制"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:195
 msgid "Timeout"
-msgstr ""
+msgstr "逾時"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:77
 msgid ""
@@ -1132,7 +1154,7 @@ msgstr ""
 "var>}}%{dest_port?，埠：%{dest_port#%{next?, }<var%{item.inv? data-"
 "tooltip=\"除非埠為 %{item.val}，否則不匹配。\"}>%{item.ival}</var>}}"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:435
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:438
 msgid "Tracking helper"
 msgstr "追蹤小幫手"
 
@@ -1150,7 +1172,7 @@ msgstr ""
 "通訊規則定義了不同區域間的資料包傳輸策略，例如：拒絕一些主機之間的通訊，開放"
 "路由器 WAN 上的埠。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:478
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:481
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:351
 msgid "Tuesday"
 msgstr "星期二"
@@ -1164,9 +1186,11 @@ msgid ""
 "Unit: seconds. Default <code>0</code> means the entry is added permanently "
 "to the set.<br />Max: 2147483 seconds."
 msgstr ""
+"單位：秒。默認值<code>0</code>表示該條目被永久添加到該集合。<br />最大值："
+"2147483 秒。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:337
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:457
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:340
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:460
 msgid "Unknown or not installed conntrack helper \"%s\""
 msgstr "未知或未安裝的連線跟蹤小幫手 \"%s\""
 
@@ -1187,17 +1211,17 @@ msgstr "未命名規則"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:56
 msgid "Unnamed set"
-msgstr ""
+msgstr "未命名集合"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:124
 msgid "Unnamed zone"
 msgstr "未命名區域"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:595
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:597
 msgid "Unrecognized protocol"
 msgstr "無法識別的協定"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:693
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:695
 msgid ""
 "Upon pressing \"Continue\", \"redirect\" sections with target \"SNAT\" will "
 "be converted to \"nat\" sections and the firewall will be restarted to apply "
@@ -1206,19 +1230,19 @@ msgstr ""
 "一旦按下\"繼續\"後, 附帶目標為\" SNAT\"的\"重導向\"欄位將轉換為\" nat\"欄位,"
 "防火牆將重新啟動以套用更新的設定值."
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:311
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:314
 msgid "Use external IP address"
 msgstr "使用外部IP位址"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:310
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:313
 msgid "Use internal IP address"
 msgstr "使用內部IP位址"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:243
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:374
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:246
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:377
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:318
 msgid "Use ipset"
-msgstr ""
+msgstr "使用 IP 集合"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:225
 msgid ""
@@ -1232,35 +1256,35 @@ msgid ""
 "instead of networks or devices."
 msgstr "使用此選項可以按來源或目的子網路(而不是網路或裝置)對區域流量進行分類。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:330
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:331
 msgid "Valid firewall mark required"
 msgstr "需要有效的防火牆標記"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:479
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:482
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:352
 msgid "Wednesday"
 msgstr "星期三"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:471
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:474
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:344
 msgid "Week Days"
 msgstr "每週日數"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:416
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:419
 msgid "XOR firewall mark"
 msgstr "按位元互斥XOR防火牆標記"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:315
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:316
 msgid "XOR mark"
 msgstr "按位元互斥XOR標記"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:28
 msgid "Your device does not run firewall4."
-msgstr ""
+msgstr "你的設備沒有使用 firewall4。"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:26
 msgid "Your device runs firewall4."
-msgstr ""
+msgstr "你的設備使用 firewall4。"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:137
 msgid "Zone ⇒ Forwardings"
@@ -1270,28 +1294,28 @@ msgstr "區域 ⇒ 轉發"
 msgid "Zones"
 msgstr "區域"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:316
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:319
 msgid ""
 "Zones from which reflection rules shall be created. If unset, only the "
 "destination zone is used."
-msgstr ""
+msgstr "創建回應規則的區域。若未設置，將僅使用目標區域。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:411
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:414
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:70
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:153
 msgid "accept"
 msgstr "接受"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:267
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:461
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:484
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:266
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:297
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:324
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:388
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:403
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:437
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:444
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:268
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:463
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:486
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:269
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:300
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:327
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:391
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:406
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:440
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:447
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:262
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:278
 msgid "any"
@@ -1308,28 +1332,28 @@ msgstr "所有區域"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:297
 msgid "any/all"
-msgstr ""
+msgstr "任意/全部"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:415
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:418
 msgid "apply firewall mark"
 msgstr "套用防火牆標記"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:414
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:417
 msgid "assign conntrack helper"
 msgstr "指定連線跟蹤幫手"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:192
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:193
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:220
 msgid "automatic"
-msgstr ""
+msgstr "自動"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:130
 msgid "bitmap"
-msgstr ""
+msgstr "bitmap"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:136
 msgid "bitmap is ipv4 only"
-msgstr ""
+msgstr "bitmap 僅支援 IPv4"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:72
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:89
@@ -1339,33 +1363,33 @@ msgstr "日"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:92
 msgid "dest_ip: Destination IP"
-msgstr ""
+msgstr "dest_ip: 目標 IP"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:94
 msgid "dest_mac: Destination MAC addr"
-msgstr ""
+msgstr "dest_mac: 目標 MAC 位址"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:95
 msgid "dest_net: Destination (sub)net"
-msgstr ""
+msgstr "dest_net: 目標（子）網"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:93
 msgid "dest_port: Destination Port"
-msgstr ""
+msgstr "dest_port：目標埠"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:97
 msgid "dest_set: Destination ipset*"
-msgstr ""
+msgstr "dest_set: 目標 ip集合*"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:311
 msgid "do not rewrite"
 msgstr "不重置"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:413
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:416
 msgid "don't track"
 msgstr "不跟蹤"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:410
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:413
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:69
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:152
 msgid "drop"
@@ -1377,14 +1401,16 @@ msgid ""
 "large address lists without the need to create one rule per item to match. "
 "Port ranges in ipsets are unsupported by firewall4.<br />"
 msgstr ""
+"firewall4 支持引用和創建 IP 集合，這樣就無需為每個條目創建一條規則進行匹配，"
+"達到簡化大型位址列表匹配的目的。firewall4 不支持 ip 集合中的 端口範圍。<br />"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:158
 msgid "fromport-toport"
-msgstr ""
+msgstr "fromport-toport"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:131
 msgid "hash"
-msgstr ""
+msgstr "雜湊"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:72
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:89
@@ -1394,31 +1420,31 @@ msgstr "小時"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:80
 msgid "ip: IP addr"
-msgstr ""
+msgstr "ip: IP 位址"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:152
 msgid "ip[/cidr]<br />"
-msgstr ""
+msgstr "ip[/cidr]<br />"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:144
 msgid "ip[/cidr]<br />For use with Match datatypes: <code>*_ip</code>."
-msgstr ""
+msgstr "ip[/cidr]<br />用於匹配資料類型：<code>*_ip</code>。"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:69
 msgid "ipv4"
-msgstr ""
+msgstr "ipv4"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:132
 msgid "list"
-msgstr ""
+msgstr "清單"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:82
 msgid "mac: MAC addr"
-msgstr ""
+msgstr "mac: MAC 位址"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:107
 msgid "macaddr|ip[/cidr]<br />"
-msgstr ""
+msgstr "macaddr|ip[/cidr]<br />"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:72
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:89
@@ -1428,13 +1454,13 @@ msgstr "分鐘"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:83
 msgid "net: (sub)net"
-msgstr ""
+msgstr "net:（子）網"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:81
 msgid "port: Port"
-msgstr ""
+msgstr "port: 埠"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:412
+#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:415
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:68
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:151
 msgid "reject"
@@ -1448,27 +1474,27 @@ msgstr "秒"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:85
 msgid "set: ipset*"
-msgstr ""
+msgstr "set: ip集合*"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:91
 msgid "src_Set: Source ipset*"
-msgstr ""
+msgstr "src_Set: 源 ip集合*"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:86
 msgid "src_ip: Source IP"
-msgstr ""
+msgstr "src_ip: 源 IP"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:88
 msgid "src_mac: Source MAC addr"
-msgstr ""
+msgstr "src_mac: 源 MAC 位址"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:89
 msgid "src_net: Source (sub)net"
-msgstr ""
+msgstr "src_net: 源（子）網"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:87
 msgid "src_port: Source Port"
-msgstr ""
+msgstr "src_port: 源 埠"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:53
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:62
@@ -1485,7 +1511,7 @@ msgstr "此裝置"
 msgid "this new zone"
 msgstr "新區域"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:353
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:354
 msgid "unlimited"
 msgstr "無限"
 
@@ -1496,8 +1522,8 @@ msgstr "未規定"
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:113
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:172
 msgid "up to 65536 entries."
-msgstr ""
+msgstr "最多 65536 個條目。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:338
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:339
 msgid "valid firewall mark"
 msgstr "有效正確的防火牆標記"
