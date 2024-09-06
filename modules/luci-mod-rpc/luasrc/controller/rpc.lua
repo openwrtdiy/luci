@@ -42,7 +42,7 @@ function index()
 	local ctrl = require "luci.controller.rpc"
 
 	local rpc = node("rpc")
-	rpc.sysauth = "kkon"
+	rpc.sysauth = "root"
 	rpc.sysauth_authenticator = ctrl.authenticator
 	rpc.notemplate = true
 
