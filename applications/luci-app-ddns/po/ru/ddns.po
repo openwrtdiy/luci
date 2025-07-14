@@ -2,8 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LuCI: ddns\n"
 "POT-Creation-Date: 2017-10-17 21:00+0300\n"
-"PO-Revision-Date: 2024-12-11 14:58+0000\n"
-"Last-Translator: st7105 <st7105@gmail.com>\n"
+"PO-Revision-Date: 2025-06-18 15:01+0000\n"
+"Last-Translator: SnIPeRSnIPeR "
+"<snipersniper@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsddns/ru/>\n"
 "Language: ru\n"
@@ -12,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.12.1\n"
 "Project-Info: Это технический перевод, не дословный. Главное-удобный русский "
 "интерфейс, все проверялось в графическом режиме, совместим с другими apps\n"
 
@@ -28,7 +29,7 @@ msgstr "Добавить новую службу..."
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:608
 msgid "Advanced Settings"
-msgstr "Дополнительные настройки"
+msgstr "Расширенные настройки"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:401
 msgid "Allow non-public IP's"
@@ -44,7 +45,7 @@ msgstr "Привязать сеть"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:332
 msgid "Binding to a specific network not supported"
-msgstr "Привязка к определенной сети не поддерживается"
+msgstr "Привязка к определённой сети не поддерживается"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:359
 msgid ""
@@ -68,7 +69,7 @@ msgid ""
 "Servers correctly!"
 msgstr ""
 "Утилита nslookup из установленной сборки busybox некорректно работает с "
-"данными серверами DNS!"
+"данными DNS-серверами!"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:452
 msgid "Ca Certs path"
@@ -140,7 +141,7 @@ msgstr "Пользовательский скрипт обновления"
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:196
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:279
 msgid "DDNS Autostart disabled"
-msgstr "Автозапуск DDNS отключен"
+msgstr "Автозапуск DDNS отключён"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:195
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:279
@@ -162,11 +163,11 @@ msgstr "Служба DDNS"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:369
 msgid "DNS requests via TCP not supported"
-msgstr "Запросы DNS по протоколу TCP не поддерживаются"
+msgstr "DNS-запросы по протоколу TCP не поддерживаются"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:907
 msgid "DNS-Server"
-msgstr "Сервер DNS"
+msgstr "DNS-сервер"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:410
 msgid "Date format"
@@ -237,7 +238,7 @@ msgstr "Включить безопасное соединение с прова
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:613
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1132
 msgid "Enabled"
-msgstr "Включен"
+msgstr "Включено"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:949
 msgid "Error"
@@ -245,7 +246,7 @@ msgstr "Ошибка"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1024
 msgid "Error Max Retry Counter"
-msgstr "Ошибка Максимальный счетчик повторных попыток"
+msgstr "Ошибка Максимальный счётчик повторных попыток"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1034
 msgid "Error Retry Interval"
@@ -465,7 +466,7 @@ msgstr "Поиск имени хоста"
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:499
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1114
 msgid "Name"
-msgstr "Название"
+msgstr "Имя"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:333
 msgid ""
@@ -616,7 +617,7 @@ msgstr "Нажмите кнопку [Читать]"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1054
 msgid "Read / Reread log file"
-msgstr "Читать / Перечитать файл журнала"
+msgstr "Загрузить / Обновить файл журнала"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:686
 msgid "Really switch service?"
@@ -719,7 +720,7 @@ msgstr "Папка состояния"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:574
 msgid "Stop"
-msgstr "Остановить"
+msgstr "Стоп"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:190
 msgid "Stop DDNS"
@@ -822,7 +823,7 @@ msgstr "Имя пользователя"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:380
 msgid "Using specific DNS Server not supported"
-msgstr "Использование определенного DNS сервера не поддерживается"
+msgstr "Использование определённого DNS-сервера не поддерживается"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:973
 msgid "Values below 5 minutes == 300 seconds are not supported"

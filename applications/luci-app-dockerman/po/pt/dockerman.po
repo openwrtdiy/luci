@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-19 21:09+0000\n"
+"PO-Revision-Date: 2025-06-08 21:04+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsdockerman/pt/>\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.7\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:604
 msgid "A list of kernel capabilities to add to the container"
@@ -484,7 +484,8 @@ msgstr "Ingresso"
 msgid ""
 "Ingress network is the network which provides the routing-mesh in swarm mode"
 msgstr ""
-"A rede de ingresso é a rede que fornece a malha de roteamento no modo enxame"
+"A rede de ingresso é a rede que fornece a malha de encaminhamento no modo "
+"enxame"
 
 #: applications/luci-app-dockerman/luasrc/view/dockerman/container.htm:8
 msgid "Inspect"
@@ -882,8 +883,8 @@ msgstr "A configuração do registo para este contentor"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:525
 msgid ""
-"The user that commands are run as inside the container.(format: name|uid[:"
-"group|gid])"
+"The user that commands are run as inside the container.(format: name|"
+"uid[:group|gid])"
 msgstr ""
 "O utilizador onde os comando são executados dentro do contentor. (Formato: "
 "nome|uid[:grupo|gid])"
@@ -931,7 +932,7 @@ msgstr "Atualização"
 #: applications/luci-app-dockerman/luasrc/view/dockerman/container_file.htm:2
 #: applications/luci-app-dockerman/luasrc/view/dockerman/container_file.htm:13
 msgid "Upload"
-msgstr "Enviar"
+msgstr "Upload"
 
 #: applications/luci-app-dockerman/luasrc/view/dockerman/container_file.htm:46
 msgid "Upload Error"

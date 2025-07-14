@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LuCI: statistics\n"
 "POT-Creation-Date: 2017-10-17 22:00+0300\n"
-"PO-Revision-Date: 2024-11-01 14:38+0000\n"
-"Last-Translator: lotigara <lotigara@yandex.ru>\n"
+"PO-Revision-Date: 2025-06-16 11:44+0000\n"
+"Last-Translator: SnIPeRSnIPeR <feoktistovk@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsstatistics/ru/>\n"
 "Language: ru\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.8.2-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 "Project-Info: Это технический перевод, не дословный. Главное-удобный русский "
 "интерфейс, все проверялось в графическом режиме, совместим с другими apps\n"
 
@@ -84,7 +84,7 @@ msgstr "Основная статистика"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/processes.js:25
 msgid "Basic process monitoring enabled"
-msgstr "Включен базовый мониторинг процессов"
+msgstr "Включён базовый мониторинг процессов"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:100
 msgid "Bitrate"
@@ -96,34 +96,35 @@ msgstr "Bitswap Выключено"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:77
 msgid "Bitswap Up"
-msgstr "Bitswap включен"
+msgstr "Bitswap включён"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/cpu.js:15
 msgid "By setting this, CPU is not aggregate of all processors on the system"
 msgstr ""
-"При установке данной опции график CPU не будет агрегировать данные всех "
-"процессоров в системе"
+"При включении данной опции график загрузки будет отображать отдельные данные "
+"по каждому ядру"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/contextswitch.js:6
 msgid "CPU Context Switches Plugin Configuration"
-msgstr "Настройка плагина переключений контекста CPU"
+msgstr ""
+"Настройка плагина сбора статистики о масштабировании частоты процессора"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/cpufreq.js:8
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/cpufreq.json:2
 msgid "CPU Frequency"
-msgstr "Частота CPU"
+msgstr "Частота процессора"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/cpufreq.js:6
 msgid "CPU Frequency Plugin Configuration"
-msgstr "Настройка плагина частоты CPU"
+msgstr "Настройка плагина сбора статистики о частоте процессора"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/cpu.js:6
 msgid "CPU Plugin Configuration"
-msgstr "Настройка плагина «CPU»"
+msgstr "Настройка плагина «Процессор»"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/cpu.js:40
 msgid "CPU monitoring is enabled"
-msgstr "Мониторинг CPU включен"
+msgstr "Мониторинг процессора включён"
 
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/csv.json:2
 msgid "CSV Output"
@@ -139,7 +140,7 @@ msgstr "Кэшировать собранную статистику в тече
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/iptables.js:99
 msgid "Chain"
-msgstr "Цепочка"
+msgstr "Цепь"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/unixsock.js:19
 msgid "Change the ownership of the socket file to the specified group."
@@ -156,7 +157,7 @@ msgstr "Настройка плагина «Chrony»"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/chrony.js:32
 msgid "Chrony monitoring enabled"
-msgstr "Включен мониторинг Chrony"
+msgstr "Включён мониторинг Chrony"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/olsrd.js:21
 msgid "CollectLinks"
@@ -276,7 +277,7 @@ msgstr "Файл с определением набора данных"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/cpufreq.js:22
 msgid "Detailled CPU frequency monitoring enabled"
-msgstr "Мониторинг частоты CPU включён"
+msgstr "Мониторинг частоты процессора включён"
 
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/dhcpleases.json:2
 msgid "Dhcpleases"
@@ -376,7 +377,7 @@ msgstr "Включить этот плагин"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/collectd.js:113
 msgid "Enabled"
-msgstr "Включен"
+msgstr "Включено"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/entropy.js:10
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/entropy.json:2
@@ -494,7 +495,7 @@ msgid ""
 "order to read certain values. The values will be read from stdout."
 msgstr ""
 "Здесь можно определить внешние команды, которые будут выполнены для чтения "
-"определенных значений. Значения будут считаны со стандартного вывода."
+"определённых значений. Значения будут считаны со стандартного вывода."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/exec.js:37
 msgid ""
@@ -503,7 +504,7 @@ msgid ""
 "will be fed to the the called programs stdin."
 msgstr ""
 "Здесь можно определить внешние команды, которые будут выполнены, когда "
-"значения достигнут определенного порога. Значения будут переданы на "
+"значения достигнут определённого порога. Значения будут переданы на "
 "стандартный ввод вызванным программам."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/iptables.js:21
@@ -523,12 +524,12 @@ msgid ""
 "Hiding the free memory item makes the graph to scale to actual memory usage, "
 "not to 100%."
 msgstr ""
-"Скрытие элемента свободной памяти приводит к тому, что график масштабируется "
-"не до 100%, а до фактического использования памяти."
+"При включении данной опции данные о свободной оперативной памяти не "
+"отображаются на графике."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/olsrd.js:14
 msgid "Host"
-msgstr "Устройство"
+msgstr "Хост"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/chrony.js:14
 msgid "Host running chrony"
@@ -553,7 +554,7 @@ msgstr "Конфигурация плагина IP-Статистика"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/ipstatistics.js:11
 msgid "IPv4/IPv6 Statistics monitoring enabled"
-msgstr "Мониторинг статистики IPv4/IPv6 включен"
+msgstr "Мониторинг статистики IPv4/IPv6 включён"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/irq.js:7
 msgid "IRQ Plugin Configuration"
@@ -643,11 +644,11 @@ msgstr "Уровень журнала"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/iptables.js:20
 msgid "Match IPv4 iptables rules"
-msgstr "Соответствие IPv4 правилам iptables"
+msgstr "Соответствие IPv4-правилам iptables"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/iptables.js:20
 msgid "Match IPv6 iptables rules"
-msgstr "Соответствие IPv6 правилам iptables"
+msgstr "Соответствие IPv6-правилам iptables"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:40
 msgid ""
@@ -671,7 +672,7 @@ msgstr "Максимальное количество пропущенных п�
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/email.js:38
 msgid "Maximum allowed connections"
-msgstr "Максимум разрешенных соединений"
+msgstr "Максимум разрешённых соединений"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/network.js:20
 msgid "Maximum packet size"
@@ -680,11 +681,11 @@ msgstr "Максимальный размер пакета"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/memory.js:11
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/memory.json:2
 msgid "Memory"
-msgstr "Оперативная память (RAM)"
+msgstr "Оперативная память"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/memory.js:6
 msgid "Memory Plugin Configuration"
-msgstr "Настройка плагина «Оперативная память (RAM)»"
+msgstr "Настройка плагина «Оперативная память»"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/memory.js:28
 msgid "Memory monitoring enabled"
@@ -700,7 +701,7 @@ msgstr "Мониторинг памяти включён"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/snmp6.js:21
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/thermal.js:34
 msgid "Monitor all except specified"
-msgstr "Собирать статистику со всех кроме указанных"
+msgstr "Собирать статистику со всех, кроме указанных выше"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/tcpconns.js:14
 msgid "Monitor all local listen ports"
@@ -754,7 +755,7 @@ msgstr "Мониторить процессы"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/tcpconns.js:25
 msgid "Monitor remote ports"
-msgstr "Мониторить удаленные порты"
+msgstr "Мониторить удалённые порты"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/tcpconns.js:41
 msgid "Monitoring %s and %s, %s %s"
@@ -770,7 +771,7 @@ msgstr "Мониторинг APC UPS на узле %s, порт %d"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/dhcpleases.js:19
 msgid "Monitoring DHCP leases enabled"
-msgstr "Мониторинг аренд DHCP включен"
+msgstr "Мониторинг аренд DHCP включён"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/dns.js:32
 msgid "Monitoring DNS queries on all interfaces"
@@ -779,9 +780,9 @@ msgstr "Мониторинг DNS запросов на всех интерфей
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/dns.js:34
 msgid "Monitoring DNS queries on one interface"
 msgid_plural "Monitoring DNS queries on %d interfaces"
-msgstr[0] "Мониторинг DNS запросов на одном интерфейсе"
-msgstr[1] "Мониторинг DNS запросов на %d интерфейсах"
-msgstr[2] "Мониторинг DNS запросов на %d интерфейсах"
+msgstr[0] "Мониторинг DNS-запросов на одном интерфейсе"
+msgstr[1] "Мониторинг DNS-запросов на %d интерфейсах"
+msgstr[2] "Мониторинг DNS-запросов на %d интерфейсах"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/olsrd.js:44
 msgid "Monitoring OLSRd status at %s:%d"
@@ -926,7 +927,7 @@ msgstr "Более подробная информация о частоте и 
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/curl.js:25
 msgid "Name"
-msgstr "Название"
+msgstr "Имя"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/netlink.js:7
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/netlink.json:2
@@ -1060,7 +1061,7 @@ msgstr "Настройка плагина «Процессы»"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/cpu.js:8
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/cpu.json:2
 msgid "Processor"
-msgstr "CPU"
+msgstr "Процессор"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/netlink.js:26
 msgid "Qdisc monitoring"
@@ -1069,7 +1070,7 @@ msgstr "Мониторинг Qdisc"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:62
 msgid "RRD XFiles Factor"
 msgstr ""
-"Часть интервала консолидации, которая может состоять из неопределенных "
+"Часть интервала консолидации, которая может состоять из неопределённых "
 "значений (*UNKNOWN*), если консолидированное значение может быть определено "
 "(известно)"
 
@@ -1091,7 +1092,7 @@ msgstr "Настройка плагина «RRDTool»"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/cpu.js:27
 msgid "Report also the value for the idle metric"
-msgstr "Отображать значения состояния простоя (idle)"
+msgstr "Отображать значение состояния простоя (idle)"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/cpu.js:14
 msgid "Report by CPU"
@@ -1115,19 +1116,19 @@ msgstr "Мониторинг правил включён"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:142
 msgid "Rx Corrupted Far"
-msgstr "Rx Corrupted Far"
+msgstr "Ошибки приёма (удал.)"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:147
 msgid "Rx Corrupted Near"
-msgstr "Rx Corrupted Near"
+msgstr "Ошибки приёма (лок.)"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:152
 msgid "Rx Retransmitted Far"
-msgstr "Rx Retransmitted Far"
+msgstr "Повторная передача (удал.)"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:162
 msgid "Rx Retransmitted Near"
-msgstr "Rx Retransmitted Near"
+msgstr "Повторная передача (лок.)"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/snmp6.js:7
 msgid "SNMP6"
@@ -1223,7 +1224,7 @@ msgstr "Затухания сигнала (SATN) включено"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/cpufreq.js:23
 msgid "Simple CPU frequency monitoring enabled"
-msgstr "Включён простой мониторинг частоты CPU"
+msgstr "Включён простой мониторинг частоты процессора"
 
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/snmp6.json:2
 msgid "Snmp6"
@@ -1307,7 +1308,7 @@ msgstr "Сводка по всем портам"
 
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/syslog.json:2
 msgid "Syslog"
-msgstr "Syslog"
+msgstr "Системные логи"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/syslog.js:6
 msgid "Syslog Plugin Configuration"
@@ -1393,7 +1394,7 @@ msgstr ""
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/cpu.js:7
 msgid "The cpu plugin collects basic statistics about the processor usage."
-msgstr "Плагин «CPU» собирает статистику об использовании процессора."
+msgstr "Плагин «Процессор» собирает статистику об использовании процессора."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/csv.js:7
 msgid ""
@@ -1437,10 +1438,10 @@ msgid ""
 "to be used in conjunction with Mail::SpamAssasin::Plugin::Collectd but can "
 "be used in other ways as well."
 msgstr ""
-"Плагин «E-mail» создает Unix-сокет, который может быть использован для "
+"Плагин «E-Mail» созда`т Unix-сокет, который может быть использован для "
 "передачи статистики по e-mail работающему сервису collectd. В основном, этот "
-"плагин предназначен для использования вместе с Mail::SpamAssasin::Plugin::"
-"Collectd."
+"плагин предназначен для использования вместе с "
+"Mail::SpamAssasin::Plugin::Collectd."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/entropy.js:7
 msgid "The entropy plugin collects statistics about the available entropy."
@@ -1451,7 +1452,7 @@ msgid ""
 "The exec plugin starts external commands to read values from or to notify "
 "external processes when certain threshold values have been reached."
 msgstr ""
-"Плагин «Exec» выполняет внешнюю команду в случае, когда определенные "
+"Плагин «Exec» выполняет внешнюю команду в случае, когда определённые "
 "значения достигают заданного порога."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/iptables.js:80
@@ -1474,7 +1475,7 @@ msgid ""
 "The iptables plugin will monitor selected firewall rules and collect "
 "information about processed bytes and packets per rule."
 msgstr ""
-"Плагин «Iptables» собирает статистику с определенных правил межсетевого "
+"Плагин «iptables» собирает статистику с определённых правил межсетевого "
 "экрана."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/irq.js:8
@@ -1490,7 +1491,8 @@ msgid ""
 "The iwinfo plugin collects statistics about wireless signal strength, noise "
 "and quality."
 msgstr ""
-"Плагин «Wi-Fi» собирает статистику о качестве и шуме беспроводного сигнала."
+"Плагин «Беспроводная сеть» собирает статистику о силе сигнала, уровне шума и "
+"качестве беспроводного соединения."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/load.js:7
 msgid "The load plugin collects statistics about the general system load."
@@ -1499,8 +1501,7 @@ msgstr "Плагин «Загрузка системы» собирает ста
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/memory.js:7
 msgid "The memory plugin collects statistics about the memory usage."
 msgstr ""
-"Плагин «Оперативная память (RAM)» собирает статистику об использовании "
-"памяти."
+"Плагин «Оперативная память» собирает статистику об использовании памяти."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/netlink.js:8
 msgid ""
@@ -1516,10 +1517,10 @@ msgid ""
 "client mode locally collected data is transferred to a collectd server "
 "instance, in server mode the local instance receives data from other hosts."
 msgstr ""
-"Плагин «Сеть» предоставляет возможность сетевого обмена данными между "
-"разными сервисами collectd. Collectd может работать в режиме сервера или "
-"клиента. В режиме клиента, локальная статистика передается collectd-серверу, "
-"в режиме сервера collectd собирает статистику с удаленных хостов."
+"Плагин «Сеть» предоставляет возможность обмена данными между различными "
+"экземплярами collectd. Collectd может работать как в режиме сервера, так и в "
+"режиме клиента. В режиме клиента локальная статистика передаётся на collectd-"
+"сервер, а в режиме сервера collectd собирает статистику с удалённых хостов."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/ping.js:7
 msgid ""
@@ -1534,8 +1535,8 @@ msgid ""
 "The processes plugin collects information like cpu time, page faults and "
 "memory usage of selected processes."
 msgstr ""
-"Плагин «Процессы» собирает информацию, такую как время CPU, ошибки страниц и "
-"использование памяти выбранных процессов."
+"Плагин «Процессы» собирает данные о времени процессора, ошибках страниц и "
+"потребляемой памяти для выбранных процессов."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:7
 msgid ""
@@ -1545,9 +1546,9 @@ msgid ""
 "directory. This can render the device unusable!</strong>"
 msgstr ""
 "Плагин «RRDTool» сохраняет статистику в формате RRD для последующего "
-"построения диаграмм.<br /><br /><strong>Внимание: установка неверных "
-"параметров может привести к высокому потреблению памяти устройства. Это "
-"может привести к зависанию устройства!</strong>"
+"построения диаграмм.<br /><br /><strong>Внимание: установка некорректных "
+"параметров может привести к высокому потреблению памяти во временном "
+"каталоге, что способно вызвать нестабильную работу устройства!</strong>"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/sensors.js:18
 msgid ""
@@ -1572,7 +1573,7 @@ msgid ""
 "The tcpconns plugin collects information about open tcp connections on "
 "selected ports."
 msgstr ""
-"Плагин «TCPConns» собирает информацию об открытых TCP соединениях на "
+"Плагин «TCPConns» собирает информацию об открытых TCP-соединениях на "
 "выбранных портах."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/thermal.js:8
@@ -1590,7 +1591,7 @@ msgid ""
 "The unixsock plugin creates a unix socket which can be used to read "
 "collected data from a running collectd instance."
 msgstr ""
-"Плагин «UnixSock» создает Unix-сокет, который может быть использован для "
+"Плагин «UnixSock» создаёт Unix-сокет, который может быть использован для "
 "получения статистики от работающего сервиса collectd."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/uptime.js:7
@@ -1612,25 +1613,26 @@ msgstr "Настройка плагина «Thermal»"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/contextswitch.js:7
 msgid "This plugin collects statistics about the processor context switches."
-msgstr "Данный плагин собирает статистику о переключение контекста процессора."
+msgstr ""
+"Данный плагин собирает статистику о контекстных переключениях процессора."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/cpufreq.js:7
 msgid "This plugin collects statistics about the processor frequency scaling."
-msgstr "Этот плагин собирает статистику о частоте процессора масштабирования."
+msgstr "Этот плагин собирает статистику о масштабировании частоты процессора."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/network.js:33
 msgid ""
 "This section defines on which interfaces collectd will wait for incoming "
 "connections."
 msgstr ""
-"Строка задает интерфейсы, на которых collectd будет обрабатывать входящие "
+"Строка задаёт интерфейсы, на которых collectd будет обрабатывать входящие "
 "соединения."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/network.js:51
 msgid ""
 "This section defines to which servers the locally collected data is sent to."
 msgstr ""
-"Строка задает сервера, на которые будет передаваться локальная статистика."
+"Строка задаёт сервера, на которые будет передаваться локальная статистика."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/chrony.js:25
 msgid "Timeout for polling chrony"
@@ -1642,11 +1644,11 @@ msgstr "Пытаться определять полное имя хоста"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:157
 msgid "Tx Retransmitted Far"
-msgstr "Tx Retransmitted Far"
+msgstr "Повторная отправка (удал.)"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:167
 msgid "Tx Retransmitted Near"
-msgstr "Tx Retransmitted Near"
+msgstr "Повторная отправка (лок.)"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/nut.js:7
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/nut.js:14
@@ -1752,7 +1754,7 @@ msgstr "Беспроводная сеть"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/iwinfo.js:7
 msgid "Wireless iwinfo Plugin Configuration"
-msgstr "Настройка плагина «Wi-Fi»"
+msgstr "Настройка плагина «Беспроводная сеть»"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:102
 msgid "Writing *.rrd files to %s"
@@ -1763,8 +1765,8 @@ msgid ""
 "You need to configure <em>collectd</em> to gather data into <em>.rrd</em> "
 "files."
 msgstr ""
-"Вам необходимо настроить <em>collectd</em> для сбора данных в файлы <em>."
-"rrd</em>."
+"Вам необходимо настроить <em>collectd</em> для сбора данных в файлы "
+"<em>.rrd</em>."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/tcpconns.js:44
 msgid "all local listening ports,"

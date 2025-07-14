@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-06 11:38+0000\n"
-"Last-Translator: st7105 <st7105@gmail.com>\n"
+"PO-Revision-Date: 2025-05-18 20:34+0000\n"
+"Last-Translator: SnIPeRSnIPeR <feoktistovk@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsusteer/ru/>\n"
 "Language: ru\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:79
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:233
@@ -32,7 +32,7 @@ msgstr "Разрешить отклонять запросы ассоциаци�
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:278
 msgid "Also be sure to enable rrm reports, 80211kv, etc."
-msgstr "Также не забудьте включить отчеты rrm, 80211kv и т. д."
+msgstr "Также не забудьте включить отчёты rrm, 80211kv и т. д."
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:475
 msgid "Assoc steering"
@@ -225,7 +225,7 @@ msgstr "Максимальные ассоциации"
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:420
 msgid "Max neighbor reports"
-msgstr "Максимальные отчеты о соседстве"
+msgstr "Максимальные отчёты о соседстве"
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:445
 msgid "Max retry band"
@@ -239,7 +239,7 @@ msgstr ""
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:435
 msgid "Maximum amount of time (ms) a measurement report is stored"
-msgstr "Максимальное время (мс) хранения отчета об измерениях"
+msgstr "Максимальное время (мс) хранения отчёта об измерениях"
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:425
 msgid ""
@@ -273,7 +273,7 @@ msgstr "Максимальное количество сообщений о со
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:435
 msgid "Measurement report timeout"
-msgstr "Таймаут отчета об измерениях"
+msgstr "Таймаут отчёта об измерениях"
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:596
 msgid "Message types to include in log."
@@ -417,7 +417,7 @@ msgstr "Шум"
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:470
 msgid "Number of remote update intervals after which a remote-node is deleted"
 msgstr ""
-"Количество интервалов удаленного обновления, после которых удаленный узел "
+"Количество интервалов удалённого обновления, после которых удалённый узел "
 "удаляется"
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:478
@@ -434,15 +434,15 @@ msgstr "Обновите страницу, чтобы отобразились �
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:215
 msgid "Remote hosts"
-msgstr "Удаленные хосты"
+msgstr "Удалённые хосты"
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:470
 msgid "Remote node timeout"
-msgstr "Таймаут удаленного узла"
+msgstr "Таймаут удалённого узла"
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:465
 msgid "Remote update interval"
-msgstr "Интервал удаленного обновления"
+msgstr "Интервал удалённого обновления"
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:512
 msgid ""
@@ -581,7 +581,7 @@ msgstr "Чтобы запустить его, попробуйте %s"
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:407
 msgid "Use IPv6 for remote exchange"
-msgstr "Используйте IPv6 для удаленного обмена"
+msgstr "Используйте IPv6 для удалённого обмена"
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:370
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:377

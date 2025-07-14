@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-08 06:32+0000\n"
-"Last-Translator: David <dawin@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2025-02-07 23:08+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationstravelmate/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.4-rc\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:76
 msgid "-- AP Selection --"
@@ -319,7 +319,7 @@ msgstr "Informationen"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:907
 msgid "Interface Name"
-msgstr "Name der Schnittstelle"
+msgstr "Schnittstellenname"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:381
 msgid "Interface Timeout"
@@ -421,18 +421,18 @@ msgstr "Übersicht"
 msgid ""
 "Overview of all configured uplinks for travelmate. You can edit, remove or "
 "prioritize existing uplinks by drag &#38; drop and scan for new ones.<br /> "
-"The currently used uplink connection is emphasized in <span style=\"color:"
-"rgb(51, 119, 204);font-weight:bold\">blue</span>, an encrypted VPN uplink "
-"connection is emphasized in <span style=\"color:rgb(68, 170, 68);font-weight:"
-"bold\">green</span>."
+"The currently used uplink connection is emphasized in <span "
+"style=\"color:rgb(51, 119, 204);font-weight:bold\">blue</span>, an encrypted "
+"VPN uplink connection is emphasized in <span style=\"color:rgb(68, 170, "
+"68);font-weight:bold\">green</span>."
 msgstr ""
 "Übersicht über alle konfigurierten Uplinks für travelmate. Sie können "
 "bestehende Uplinks per Drag &#38; Drop bearbeiten, entfernen oder "
 "priorisieren sowie nach neuen Uplinks suchen.<br /> Die aktuell verwendete "
-"Uplink-Verbindung ist in <span style=\"color:rgb(51, 119, 204);font-weight:"
-"bold\">blau</span> hervorgehoben, eine verschlüsselte VPN-Uplink-Verbindung "
-"ist in <span style=\"color:rgb(68, 170, 68);font-weight:bold\">grün</span> "
-"hervorgehoben."
+"Uplink-Verbindung ist in <span style=\"color:rgb(51, 119, 204);font-"
+"weight:bold\">blau</span> hervorgehoben, eine verschlüsselte VPN-Uplink-"
+"Verbindung ist in <span style=\"color:rgb(68, 170, 68);font-"
+"weight:bold\">grün</span> hervorgehoben."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:421
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:981

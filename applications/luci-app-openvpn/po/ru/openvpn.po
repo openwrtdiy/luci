@@ -2,8 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LuCI: openvpn\n"
 "POT-Creation-Date: 2013-09-06 10:01+0200\n"
-"PO-Revision-Date: 2024-11-01 07:42+0000\n"
-"Last-Translator: lotigara <lotigara@yandex.ru>\n"
+"PO-Revision-Date: 2025-06-18 15:01+0000\n"
+"Last-Translator: SnIPeRSnIPeR "
+"<snipersniper@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsopenvpn/ru/>\n"
 "Language: ru\n"
@@ -12,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.8.2-dev\n"
+"X-Generator: Weblate 5.12.1\n"
 "Project-Info: Это технический перевод, не дословный. Главное-удобный русский "
 "интерфейс, все проверялось в графическом режиме, совместим с другими apps\n"
 
@@ -56,7 +57,7 @@ msgstr "Разрешить только одну сессию"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:197
 msgid "Allow remote to change its IP or port"
-msgstr "Разрешить удаленное изменение IP-адреса или порта"
+msgstr "Разрешить удалённое изменение IP-адреса или порта"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:469
 msgid "Allowed maximum of connected clients"
@@ -117,7 +118,7 @@ msgstr ""
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:404
 msgid "Client is disabled"
-msgstr "Клиент отключен"
+msgstr "Клиент отключён"
 
 #: applications/luci-app-openvpn/luasrc/view/openvpn/pageswitch.htm:20
 msgid "Configuration category"
@@ -144,7 +145,7 @@ msgstr "Подключаться через SOCKS5-прокси"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:527
 msgid "Connect to remote host through an HTTP proxy"
-msgstr "Подключаться к удаленной машине с использованием HTTP-прокси"
+msgstr "Подключаться к удалённой машине с использованием HTTP-прокси"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:522
 msgid "Connection retry interval"
@@ -232,7 +233,7 @@ msgstr "Не использовать адаптивное сжатие по а�
 msgid "Don't warn on ifconfig inconsistencies"
 msgstr ""
 "Не выводить предупреждение проверки согласованности параметров, если "
-"параметр 'ifconfig' с этой стороны соединения не совпадает с удаленной "
+"параметр 'ifconfig' с этой стороны соединения не совпадает с удалённой "
 "стороной"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:88
@@ -278,7 +279,7 @@ msgstr "Включить интерфейс управления, по <em>IP-а
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn.lua:104
 msgid "Enabled"
-msgstr "Включен"
+msgstr "Включено"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:759
 msgid "Encrypt and authenticate all control channel packets with the key"
@@ -330,7 +331,7 @@ msgstr "Предоставить доступ к конфигурации OpenVP
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:580
 msgid "HMAC authentication for packets"
-msgstr "Алгоритм расчета HMAC кода для аутентификации пакетов"
+msgstr "Алгоритм расчёта HMAC-кода для аутентификации пакетов"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:503
 msgid "Handling of authentication failures"
@@ -500,7 +501,7 @@ msgstr "Время ожидания прокси в секундах"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:419
 msgid "Push an ifconfig option to remote"
-msgstr "Выполнить команду ifconfig на удаленном узле"
+msgstr "Выполнить команду ifconfig на удалённом узле"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:394
 msgid "Push options to peer"
@@ -512,7 +513,7 @@ msgstr "Канал управления запросами для закрыто
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:517
 msgid "Randomly choose remote server"
-msgstr "Случайно выбирать удаленный сервер"
+msgstr "Случайно выбирать удалённый сервер"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:444
 msgid "Refuse connection if no custom client config"
@@ -529,11 +530,11 @@ msgstr ""
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:513
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-basic.lua:61
 msgid "Remote host name or IP address"
-msgstr "Имя удаленного хоста или его IP-адрес"
+msgstr "Имя удалённого хоста или его IP-адрес"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:324
 msgid "Remote ping timeout"
-msgstr "Время ожидания удаленного пинг-запроса"
+msgstr "Время ожидания удалённого пинг-запроса"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:727
 msgid "Renegotiate data chan. key after bytes"
@@ -565,18 +566,18 @@ msgstr "Требовать явного использования ключа в
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:328
 msgid "Restart after remote ping timeout"
-msgstr "Перезапуск после таймаута ожидания удаленного пинг-запроса"
+msgstr "Перезапуск после таймаута ожидания удалённого пинг-запроса"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:810
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:819
 msgid "Restrict the allowed ciphers to be negotiated"
-msgstr "Ограничить разрешенные шифры согласования"
+msgstr "Ограничить разрешённые шифры согласования"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:723
 msgid "Retransmit timeout on TLS control channel"
 msgstr ""
 "Период повторной передачи пакета по управляющему TLS каналу, если нет "
-"подтверждения от удаленного узла, в секундах"
+"подтверждения от удалённого узла (в секундах)"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:532
 msgid "Retry indefinitely on HTTP proxy errors"
@@ -611,7 +612,7 @@ msgid ""
 "Section to add an optional 'auth-user-pass' file with your credentials (%s)"
 msgstr ""
 "Раздел для добавления дополнительного 'auto-user-pass' файла с вашими "
-"учетными данными (%s)"
+"учётными данными (%s)"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-file.lua:36
 msgid "Section to modify the OVPN config file (%s)"
@@ -671,7 +672,7 @@ msgstr ""
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:300
 msgid "Set the TCP/UDP receive buffer size"
-msgstr "Размер буфера TCP/UDP на прием"
+msgstr "Размер буфера TCP/UDP на приём"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:296
 msgid "Set the TCP/UDP send buffer size"
@@ -686,7 +687,7 @@ msgstr "Размер очереди передачи TUN/TAP-интерфейс�
 msgid "Set tun/tap adapter parameters"
 msgstr ""
 "Параметры TUN/TAP-интерфейса в формате \"l rn\", где l — IP-адрес локальной "
-"конечной точки VPN, а rn — это IP-адрес удаленной конечной точки VPN (TUN) "
+"конечной точки VPN, а rn — это IP-адрес удалённой конечной точки VPN (TUN) "
 "или маска подсети (TAP)"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:278
@@ -765,15 +766,15 @@ msgstr "Перейти к основным настройкам"
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:181
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-basic.lua:21
 msgid "TCP/UDP port # for both local and remote"
-msgstr "Номер локального и удаленного TCP/UDP порта"
+msgstr "Номер локального и удалённого TCP/UDP-порта"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:185
 msgid "TCP/UDP port # for local (default=1194)"
-msgstr "Номер локального TCP/UDP порта (по умолчанию 1194)"
+msgstr "Номер локального TCP/UDP-порта (по умолчанию 1194)"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:189
 msgid "TCP/UDP port # for remote (default=1194)"
-msgstr "Номер удаленного TCP/UDP порта (по умолчанию 1194)"
+msgstr "Номер удалённого TCP/UDP-порта (по умолчанию 1194)"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:719
 msgid "TLS 1.3 or newer cipher"
