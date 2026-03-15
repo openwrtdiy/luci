@@ -25,7 +25,7 @@ return view.extend({
 			form.submit()
 		});
 
-		document.querySelector('input[type="password"]').focus();
+		document.querySelector('input[type="text"]').focus();
 
 		return '';
 	},
