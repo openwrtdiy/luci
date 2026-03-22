@@ -51,6 +51,19 @@ return baseclass.extend({
 			);
 		}
 
+		var buildDateStr = _('Unknown');
+		if (boardinfo.release && boardinfo.release.builddate) {
+			var bDate = new Date(boardinfo.release.builddate * 1000);
+			buildDateStr = '%04d-%02d-%02d %02d:%02d:%02d'.format(
+				bDate.getUTCFullYear(),
+				bDate.getUTCMonth() + 1,
+				bDate.getUTCDate(),
+				bDate.getUTCHours(),
+				bDate.getUTCMinutes(),
+				bDate.getUTCSeconds()
+			);
+		}
+
 		var fields = [
 			_('Hostname'),         boardinfo.hostname,
 			_('Model'),            boardinfo.model,
@@ -58,6 +71,7 @@ return baseclass.extend({
 			_('Target Platform'),  (L.isObject(boardinfo.release) ? boardinfo.release.target : ''),
 			_('Firmware Version'), (L.isObject(boardinfo.release) ? boardinfo.release.description + ' / ' : '') + (luciversion || ''),
 			_('Kernel Version'),   boardinfo.kernel,
+			_('Build Date'),       buildDateStr,
 			_('Local Time'),       datestr,
 			_('Uptime'),           systeminfo.uptime ? '%t'.format(systeminfo.uptime) : null,
 			_('Load Average'),     Array.isArray(systeminfo.load) ? '%.2f, %.2f, %.2f'.format(
